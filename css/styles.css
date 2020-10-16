@@ -1,0 +1,1759 @@
+
+
+	body{
+		
+		margin: 0px;           /* Space between all Body and Browser */
+		/*padding-top: 2%;*/
+	}
+
+
+	/* --------- Header - Title - Nav ------------ */
+
+	.fixed-header{
+		width: 100%;
+		background: #5177B6;
+		text-align: center;
+		border-bottom-color: #fff;
+		border-bottom-style: solid;
+		border-bottom-width: 2px;
+
+	}
+
+	.fixed-header{
+		top:0;
+	}
+
+	.div_header_class{
+		padding-top: 5%;
+		padding-bottom: 1%;
+		background: #082C4D;
+	}
+
+	.h1_header_class{
+		font-weight: bold;
+		color: #84919B;
+		font-size: 300%;
+		font-family: Helvetica,Arial,Times,optima;
+		margin: 0.5%;
+		letter-spacing: 8px;
+		display: inline-block;
+		width: auto 100%;
+	}
+
+	.h1_header_class:first-letter{
+		color: #4E6D6F;
+	}
+
+	.h2_header_class{
+		color: #4E6D6F;
+		padding-top: 0.7%;
+		padding-bottom: 0.5%;
+		margin-top: -0.2%;
+		margin-bottom: 0.5%;
+		letter-spacing: 8px;
+		font-family: Helvetica,Arial,Times,optima;
+		font-size: 120%;
+		width: auto;
+		text-align: center;
+	}
+
+	.div_nav_class{
+		padding-top: 0%;
+		padding-bottom: 0%;
+		margin-top: 0.2%;
+		margin-bottom: 0.2%;
+	}
+
+	nav a{
+		display: block;
+		font-weight: bold;
+		font-size: 80%;
+		font-family: Helvetica,Arial,Times,optima;
+		text-align: center;
+		color: #ECEEEF;
+		width: 100% auto;
+		margin: -0.5% 0% 0% 0%;
+		padding: 2.5% 0% 1.5% 0%;                                                
+		text-decoration: none; /* get rid off underline design */
+		letter-spacing: 3px;
+		border-radius: 5px;	
+	}
+
+
+	nav a:hover{
+		/*background: #fff;*/
+		color: #082C4D;
+		border-radius: 5px;
+		text-decoration: none;
+	}
+	
+
+	.a_active{
+		/*background: #fff;*/
+		color: #082C4D;
+		border-radius: 2px;
+		
+	}
+
+	.tooltip.bs-tooltip-bottom .tooltip-inner {
+ 		background:#4E6D6F !important;
+ 		visibility: hidden;
+ 	}
+
+ 	.tooltip .arrow:before {
+ 		border-bottom-color:#4E6D6F !important;
+  		border-top-color:#4E6D6F !important;
+  		visibility: hidden;
+ 	 }
+
+ 	 .div_fecha{
+ 	 	padding: 6% 7% 0% 0%;
+ 	 	float: right;
+ 	 	font-size: 85%;
+		font-family: Helvetica,Arial,Times,optima;
+		font-style: italic;
+		font-weight: bold;
+		color: #3075b2;
+		letter-spacing: 1px;
+ 	 }
+
+
+ 
+
+
+
+/* ------------------------------------------- */
+
+	.div_title_section{
+		margin-top: 5%;
+		margin-bottom: 1%;
+	}
+
+	.h2_class{
+	    color: #3075b2;
+		font-weight: bold;
+		font-size: 150%;
+		font-family: Helvetica,Arial,Times,optima;
+		letter-spacing: 1px;
+		padding-left: 3%;
+		padding-top: 1%;
+		padding-bottom: 0.5%;
+	}
+
+	.div_section{
+		background: #ffffff;
+		width: 100%;
+		padding-top: 0.8%;
+		padding-bottom: 2%;
+
+	}
+
+	.div_section_1{
+		background: #ffffff;
+		width: 100%;
+		padding-bottom: 2%;
+		padding-left: 1%;
+	}
+
+
+	.div_section_2{	
+		
+		width: auto;
+		padding: 0.5% 7% 5% 3%;
+	}
+
+	.div_section_education{	
+		width: auto;
+		margin-top: 1%;
+		display: block;
+		padding: 1% 2.5% 1% 2.5%;
+}
+	.linea{
+	 	border-bottom: 1.3px ridge;
+	 	margin: 3% 2% 1% 4%;
+	 }	
+
+
+	.p_body_section{
+		line-height: 200%;
+		padding - top: 2%;
+		padding-left: 3%;
+		padding-right: 3%;
+		color: #84919B;
+		font-weight: normal;
+		font-size: 120%;
+		font-family: Helvetica,Arial,Times,optima;
+	}
+
+
+
+	.ul_class{
+		line-height: 280%;
+		list-style-type: square;
+		list-style-image: url('../imgs/list_icon.png');
+		padding-left: 5%;
+		padding-top: 0.4%;
+		padding-bottom: 1%;
+		color: #84919B;
+	}
+
+	.li_class{
+		padding-left: 0.5%;
+		color: #84919B;
+		font-weight: normal;
+		font-size: 120%;
+		font-family: Helvetica,Arial,Times,optima;
+	}
+
+
+/* ----- Classes for <h2> Experiences tag ------ */
+
+	.h2_position{
+		line-height: 120%;
+		padding-left: 4%;
+		color: #84919B;
+		font-weight: bold;
+		font-size: 120%;
+		font-family: Helvetica,Arial,Times,optima;
+	}
+
+	.h2_employer{
+		line-height: 120%;
+		padding: 0.3% 0% 0% 4%;
+		color: #84919B;
+		font-weight: normal;
+		font-size: 110%;
+		font-family: Helvetica,Arial,Times,optima;
+	}
+
+
+	.i_link{
+		padding: 0% 0.2% 0% 0%;
+	}
+
+    .a_link{
+  		line-height: 120%;
+		padding: 0% 0% 4% 4%;
+		color: #888888;
+		font-weight: bold;
+		text-decoration: none;
+		font-size: 120%;
+		font-family: Helvetica,Arial,Times,optima;    	
+    }
+
+    .a_link:hover{
+    	text-decoration: none;
+    }
+
+	.h2_location{
+		line-height: 120%;
+		padding-left: 4%;
+		color: #84919B;
+		font-weight: normal;
+		font-size: 110%;
+		font-family: Helvetica,Arial,Times,optima;
+	}
+
+	.h2_date{
+		line-height: 120%;
+		padding-left: 4%;
+		color: #84919B;
+		font-weight: normal;
+		font-size: 110%;
+		font-family: Helvetica,Arial,Times,optima;
+	}
+
+
+
+/* ----- Classes for <a> download tag ------ */
+
+
+	.div_link_download{
+			padding-top: 1.2%;
+			margin-left: 5%;
+			width: 40%;
+			height: 1.8em;
+			display: block;
+		}
+
+	.a_link_download{
+		color: #3075b2;
+		font-weight: normal;
+		font-size: 100%;
+		font-family: Helvetica,Arial,Times,optima;
+		text-decoration: none;
+	}
+
+	.a_link_download:hover{
+		color: #DC5F1A;
+		font-weight: normal;
+		font-size: 100%;
+		font-family: Helvetica,Arial,Times,optima;
+		text-decoration: none;
+	}
+
+	.footer_img{
+		width: 100%;
+		margin-top: 5%;
+	}
+
+	.p_footer{
+		text-align: center;
+		margin-top: 2%;
+		margin-bottom: 2%;
+		font-weight: bold;
+		font-size: 100%;
+		font-family: Helvetica,Arial,Times,optima;
+		color: #84919B;
+	}
+
+	.fa-md{
+		padding: 0% 0.4% 0% 0%;
+	}
+
+   /* ------------------------------------------- */
+
+
+
+
+
+
+
+/* Media Query for Big Screens */
+/* *************************** */
+@media all and (min-width: 768px){
+
+
+	.fixed-header{
+		position: fixed;
+		width: 100%;
+		background: #5177B6;
+		text-align: center;
+		border-bottom-color: #fff;
+		border-bottom-style: solid;
+		border-bottom-width: 2px;
+			
+	}
+
+	.fixed-header{
+		top:0;
+	}
+
+
+
+	body{
+		margin: 0px;           /* Space between all Body and Browser */
+		padding-top: 160px;
+	}
+
+
+	nav a{
+		display: inline-block;
+		font-weight: bold;
+		font-size: 80%;
+		font-family: Helvetica,Arial,Times,optima;
+		text-align: center;
+		color: #ECEEEF;
+		width: auto;
+		margin: -0.5% 0% -0.4% 0%;
+		padding: 0.6% 0.5% 0.8% 0.5%;                                                
+		text-decoration: none; /* get rid off underline design */
+		letter-spacing: 3px;
+		border-radius: 3px;	
+	}
+
+
+	nav a:hover{
+		background: #fff;
+		color: #082C4D;
+		border-radius: 3px;
+		text-decoration: none;
+	}
+	
+
+	.a_active{
+		background: #fff;
+		color: #082C4D;
+		border-radius: 2px;
+	}
+
+
+	.tooltip.bs-tooltip-bottom .tooltip-inner {
+		visibility: visible;
+ 		background:#4E6D6F !important;
+ 	}
+
+ 	.tooltip .arrow:before {
+ 		visibility: visible;
+ 		border-bottom-color:#4E6D6F !important;
+  		border-top-color:#4E6D6F !important;
+ 	 }
+
+
+
+	.div_title_section{
+		margin-top: 10%;
+		margin-bottom: 1%;
+		padding-left: 3.5%;
+	}
+
+	.div_section{
+		width: 100%;
+		padding-top: 1.5%;
+		padding-bottom: 2%;
+		padding-left: 3.5%;
+		padding-right: 3.5%;
+	}
+
+	.div_section_1{
+		
+		width: 30%;
+		height: auto;
+		padding-left: 5.5%;
+		display: block;
+		float: left;
+		margin-top: 2%;
+
+	}
+
+	.div_section_2{	
+		display: block;
+		width: auto;
+		height: auto;
+		padding: 0.5% 6% 1% 30%;
+	}
+
+	.div_section_education{
+		
+		width: auto;
+		margin-top: 0.5%;
+		display: block;
+		padding: 1% 2.5% 1% 2.5%;
+	}
+
+	.linea{
+ 		border-bottom: 1.3px ridge;
+ 		margin: 3% 2% 1% 4%;
+ 	}	
+
+
+	.div_sub_title_section{
+		margin-top: 1%;
+		margin-bottom: 1%;
+		float: left;
+		display: inline-block;
+		width: 100%;
+		padding-left: 3.5%;
+	
+	}
+
+
+
+
+	.p_body_section{
+		line-height: 200%;
+		padding - top: 2%;
+		padding-left: 3%;
+		padding-right: 3%;
+		color: #84919B;
+		font-weight: normal;
+		font-size: 120%;
+		font-family: Helvetica,Arial,Times,optima;
+	}
+
+
+	.div_header_class{
+		padding-top: 1%;
+		padding-bottom: 0.1%;
+		background: #082C4D;
+	}
+
+
+	.div_nav_class{
+		padding-top: 0%;
+		padding-bottom: 0%;
+		margin-top: 0.2%;
+		margin-bottom: 0.2%;
+	}
+
+
+
+
+
+
+	.h1_header_class{
+		font-weight: bold;
+		color: #84919B;
+		font-size: 300%;
+		font-family: Helvetica,Arial,Times,optima;
+		margin: 0.5%;
+		letter-spacing: 8px;
+		display: inline-block;
+		width: auto 100%;
+	}
+
+	.h1_header_class:first-letter{
+		color: #4E6D6F;
+	}
+
+	.h2_class{
+	    color: #3075b2;
+		font-weight: bold;
+		font-size: 150%;
+		font-family: Helvetica,Arial,Times,optima,;
+		letter-spacing: 1px;
+		padding-left: 3%;
+		padding-top: 1%;
+		padding-bottom: 1%;
+	}
+
+	.h2_header_class{
+		color: #4E6D6F;
+		padding-top: 0.7%;
+		padding-bottom: 0.5%;
+		margin-top: -0.2%;
+		margin-bottom: 0.5%;
+		letter-spacing: 8px;
+		font-family: Helvetica,Arial,Times,optima;
+		font-size: 120%;
+	}
+
+
+	.footer_img{
+		width: 100%;
+		margin-top: 5%;
+	}
+
+	.p_footer{
+		text-align: center;
+		margin-top: 2%;
+		margin-bottom: 2%;
+		font-weight: normal;
+		font-size: 100%;
+		font-family: Helvetica,Arial,Times,optima;
+		color: #84919B;
+	}
+
+	.fa-md{
+		padding: 0% 0.5% 0% 0%;
+	}
+
+
+	.ul_class{
+		line-height: 305%;
+		list-style-type: square;
+		list-style-image: url('../imgs/list_icon.png');
+		padding-left: 4.5%;
+		padding-top: 0.4%;
+		padding-bottom: 1%;
+		color: #84919B;
+	}
+
+
+	.li_class{
+		padding-left: 0.5%;
+		color: #84919B;
+		font-weight: normal;
+		font-size: 120%;
+		font-family: Helvetica,Arial,Times,optima;
+	}
+
+
+
+/* ----- Classes for <h2> Experiences tag ------ */
+
+	.h2_position{
+		line-height: 120%;
+		padding-left: 4%;
+		color: #84919B;
+		font-weight: bold;
+		font-size: 130%;
+		font-family: Helvetica,Arial,Times,optima;
+	}
+
+	.h2_employer{
+		line-height: 120%;
+		padding: 0.3% 0% 0% 4%;
+		color: #84919B;
+		font-weight: normal;
+		font-size: 110%;
+		font-family: Helvetica,Arial,Times,optima;
+	}
+
+
+	.i_link{
+		padding: 0% 0.2% 0% 0%;
+	}
+
+    .a_link{
+  		line-height: 120%;
+		padding: 0% 0% 4% 4%;
+		color: #888888;
+		font-weight: bold;
+		text-decoration: none;
+		font-size: 120%;
+		font-family: Helvetica,Arial,Times,optima;    	
+    }
+
+    .a_link:hover{
+    	text-decoration: none;
+    }
+
+	.h2_location{
+		line-height: 120%;
+		padding-left: 4%;
+		color: #84919B;
+		font-weight: normal;
+		font-size: 110%;
+		font-family: Helvetica,Arial,Times,optima;
+	}
+
+	.h2_date{
+		line-height: 120%;
+		padding-left: 4%;
+		color: #84919B;
+		font-weight: normal;
+		font-size: 110%;
+		font-family: Helvetica,Arial,Times,optima;
+	}
+
+
+    /* ----- Classes for <a> download tag ------ */
+
+
+	.div_link_download{
+		padding-top: 0.8%;
+		margin-left: 3%;
+		width: 25%;
+		height: 1.8em;
+		display: block;
+	}
+
+	.a_link_download{
+		color: #3075b2;
+		font-weight: normal;
+		font-size: 100%;
+		font-family: Helvetica,Arial,Times,optima;
+		text-decoration: none;
+	}
+
+	.a_link_download:hover{
+		color: #DC5F1A;
+		font-weight: normal;
+		font-size: 100%;
+		font-family: Helvetica,Arial,Times,optima;
+		text-decoration: none;
+	}
+
+   /* ------------------------------------------- */
+
+}
+
+
+
+
+
+
+
+/* Media Query for Large Screens */
+/* *************************** */
+@media all and (min-width: 1024px){
+
+
+	.fixed-header{
+		position: fixed;
+		width: 100%;
+		background: #5177B6;
+		text-align: center;
+		border-bottom-color: #fff;
+		border-bottom-style: solid;
+		border-bottom-width: 2px;
+			
+	}
+
+	.fixed-header{
+		top:0;
+	}
+
+	html{
+		height: 100%;
+	}
+
+	body{
+		min-height: 100vh;
+		margin: 0px;           /* Space between all Body and Browser */
+		padding-top: 90px;
+	}
+
+
+	nav a{
+		display: inline-block;
+		font-weight: bold;
+		font-size: 80%;
+		font-family: Helvetica,Arial,Times,optima;
+		text-align: center;
+		color: #ECEEEF;
+		width: auto;
+		margin: -0.5% 0% -0.3% 0%;
+		padding: 0.6% 0.5% 0.7% 0.5%;                                                
+		text-decoration: none; /* get rid off underline design */
+		letter-spacing: 3px;
+		border-radius: 3px;	
+	}
+
+
+	nav a:hover{
+		background: #fff;
+		color: #082C4D;
+		border-radius: 3px;
+		text-decoration: none;
+	}
+	
+
+	.a_active{
+		background: #fff;
+		color: #082C4D;
+		border-radius: 2px;
+	}
+
+
+	.tooltip.bs-tooltip-bottom .tooltip-inner {
+ 		background:#4E6D6F !important;
+ 	}
+
+ 	.tooltip .arrow:before {
+ 		border-bottom-color:#4E6D6F !important;
+  		border-top-color:#4E6D6F !important;
+ 	 }
+
+
+	.div_title_section{
+		margin-top: 10%;
+		margin-bottom: 1%;
+		padding-left: 3.5%;
+	}
+
+	.div_section{
+		width: 100%;
+		padding-top: 1.5%;
+		padding-bottom: 2%;
+		padding-left: 3.5%;
+		padding-right: 3.5%;
+	}
+
+	.div_section_1{
+		
+		width: 30%;
+		height: auto;
+		padding-left: 5.5%;
+		display: block;
+		float: left;
+		margin-top: 2%;
+
+	}
+
+
+	.div_section_2{	
+		display: block;
+		width: auto;
+		height: auto;
+		padding: 0.5% 5% 1% 30%;
+	}
+
+	.div_section_education{
+		
+		width: auto;
+		margin-top: 0.5%;
+		display: block;
+		padding: 1% 2.5% 1% 2.5%;
+
+	}
+
+	.linea{
+ 		border-bottom: 1.3px ridge;
+ 		margin: 3% 2% 1% 4%;
+ 	}	
+
+
+	.div_sub_title_section{
+		margin-top: 1%;
+		margin-bottom: 1%;
+		float: left;
+		display: inline-block;
+		width: 100%;
+		padding-left: 3.5%;
+	
+	}
+
+
+	.p_body_section{
+		line-height: 200%;
+		padding - top: 2%;
+		padding-left: 3%;
+		padding-right: 3%;
+		color: #84919B;
+		font-weight: normal;
+		font-size: 120%;
+		font-family: Helvetica,Arial,Times,optima;
+	}
+
+
+
+
+	.div_header_class{
+
+		padding-top: 1%;
+		padding-bottom: 0.1%;
+		background: #082C4D;
+
+	}
+
+
+	.div_nav_class{
+		padding-top: 0%;
+		padding-bottom: 0%;
+		margin-top: 0.2%;
+		margin-bottom: 0.2%;
+	}
+
+
+
+
+
+
+	.h1_header_class{
+		font-weight: bold;
+		color: #84919B;
+		font-size: 300%;
+		font-family: Helvetica,Arial,Times,optima;
+		margin: 0.5%;
+		letter-spacing: 8px;
+		display: inline-block;
+		width: auto 100%;
+	}
+
+	.h1_header_class:first-letter{
+		color: #4E6D6F;
+	}
+
+	.h2_class{
+	    color: #3075b2;
+		font-weight: bold;
+		font-size: 150%;
+		font-family: Helvetica,Arial,Times,optima,;
+		letter-spacing: 1px;
+		padding-left: 3%;
+		padding-top: 1%;
+		padding-bottom: 1%;
+	}
+
+	.h2_header_class{
+		color: #4E6D6F;
+		padding-top: 0.7%;
+		padding-bottom: 0.5%;
+		margin-top: -0.2%;
+		margin-bottom: 0.5%;
+		letter-spacing: 8px;
+		font-family: Helvetica,Arial,Times,optima;
+		font-size: 120%;
+		width: auto;
+		text-align: center;
+	}
+
+
+	.footer_img{
+		width: 100%;
+		margin-top: 5%;
+	}
+
+	.p_footer{
+		text-align: center;
+		margin-top: 2%;
+		margin-bottom: 2%;
+		font-weight: normal;
+		font-size: 100%;
+		font-family: Helvetica,Arial,Times,optima;
+		color: #84919B;
+	}
+
+	.fa-md{
+		padding: 0% 0.4% 0% 0%;
+	}
+
+
+	.ul_class{
+		line-height: 290%;
+		list-style-type: square;
+		list-style-image: url('../imgs/list_icon.png');
+		padding-left: 4.5%;
+		padding-top: 0.5%;
+		padding-bottom: 0.6%;
+		color: #84919B;
+	}
+
+
+
+	.li_class{
+		padding-left: 0.5%;
+		color: #84919B;
+		font-weight: normal;
+		font-size: 120%;
+		font-family: Helvetica,Arial,Times,optima;
+	}
+
+
+
+/* ----- Classes for <h2> Experiences tag ------ */
+
+	.h2_position{
+		line-height: 120%;
+		padding-left: 4%;
+		color: #84919B;
+		font-weight: bold;
+		font-size: 130%;
+		font-family: Helvetica,Arial,Times,optima;
+	}
+
+	.h2_employer{
+		line-height: 120%;
+		padding: 0.3% 0% 0% 4%;
+		color: #84919B;
+		font-weight: normal;
+		font-size: 110%;
+		font-family: Helvetica,Arial,Times,optima;
+	}
+
+
+	.i_link{
+		padding: 0% 0.2% 0% 0%;
+	}
+
+    .a_link{
+  		line-height: 120%;
+		padding: 0% 0% 4% 4%;
+		color: #888888;
+		font-weight: bold;
+		text-decoration: none;
+		font-size: 120%;
+		font-family: Helvetica,Arial,Times,optima;    	
+    }
+
+    .a_link:hover{
+    	text-decoration: none;
+    }
+
+	.h2_location{
+		line-height: 120%;
+		padding-left: 4%;
+		color: #84919B;
+		font-weight: normal;
+		font-size: 110%;
+		font-family: Helvetica,Arial,Times,optima;
+	}
+
+	.h2_date{
+		line-height: 120%;
+		padding-left: 4%;
+		color: #84919B;
+		font-weight: normal;
+		font-size: 110%;
+		font-family: Helvetica,Arial,Times,optima;
+	}
+
+
+    /* ----- Classes for <a> download tag ------ */
+
+	.div_link_download{
+		padding-top: 0.6%;
+		margin-left: 3%;
+		width: 25%;
+		height: 1.8em;
+		display: block;
+	}
+
+	.a_link_download{
+		color: #3075b2;
+		font-weight: normal;
+		font-size: 100%;
+		font-family: Helvetica,Arial,Times,optima;
+		text-decoration: none;
+	}
+
+	.a_link_download:hover{
+		color: #DC5F1A;
+		font-weight: normal;
+		font-size: 100%;
+		font-family: Helvetica,Arial,Times,optima;
+		text-decoration: none;
+	}
+
+   /* ------------------------------------------- */
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* Media Query for Large Screens */
+/* *************************** */
+@media all and (min-width: 1300px){
+
+
+	nav a{
+		display: inline-block;
+		font-weight: bold;
+		font-size: 80%;
+		font-family: Helvetica,Arial,Times,optima;
+		text-align: center;
+		color: #ECEEEF;
+		width: auto;
+		margin: -0.5% 0% -0.3% 0%;
+		padding: 0.5% 0.5% 0.7% 0.5%;                                                
+		text-decoration: none; /* get rid off underline design */
+		letter-spacing: 3px;
+		border-radius: 3px;	
+	}
+
+
+	nav a:hover{
+		background: #fff;
+		color: #082C4D;
+		border-radius: 3px;
+		text-decoration: none;
+	}
+
+	.a_active{
+		background: #fff;
+		color: #082C4D;
+		border-radius: 3px;
+	}
+
+	.tooltip.bs-tooltip-bottom .tooltip-inner {
+ 		background:#4E6D6F !important;
+ 	}
+
+ 	.tooltip .arrow:before {
+ 		border-bottom-color:#4E6D6F !important;
+  		border-top-color:#4E6D6F !important;
+ 	 }	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Media Query for Large Screens */
+/* *************************** */
+@media all and (min-width: 1596px){
+
+
+	.fixed-header{
+		position: fixed;
+		width: 100%;
+		background: #5177B6;
+		text-align: center;
+		border-bottom-color: #fff;
+		border-bottom-style: solid;
+		border-bottom-width: 2px;
+			
+	}
+
+	.fixed-header{
+		top:0;
+	}
+
+	html{
+		height: 100%;
+	}
+
+	body{
+		min-height: 100vh;
+		margin: 0px;           /* Space between all Body and Browser */
+		padding-top: 90px;
+	}
+
+
+	nav a{
+		display: inline-block;
+		font-weight: bold;
+		font-size: 80%;
+		font-family: Helvetica,Arial,Times,optima;
+		text-align: center;
+		color: #ECEEEF;
+		width: auto;
+		margin: -0.2% 0% -0.3% 0%;
+		padding: 0.5% 0.5% 0.5% 0.5%;                                                
+		text-decoration: none; /* get rid off underline design */
+		letter-spacing: 3px;
+		border-radius: 3px;	
+	}
+
+
+	nav a:hover{
+		background: #fff;
+		color: #082C4D;
+		border-radius: 3px;
+		text-decoration: none;
+	}
+
+
+	.a_active{
+		background: #fff;
+		color: #082C4D;
+		border-radius: 3px;
+	}
+
+	.tooltip.bs-tooltip-bottom .tooltip-inner {
+ 		background:#4E6D6F !important;
+ 	}
+
+ 	.tooltip .arrow:before {
+ 		border-bottom-color:#4E6D6F !important;
+  		border-top-color:#4E6D6F !important;
+ 	 }	
+
+
+	.div_title_section{
+		margin-top: 10%;
+		margin-bottom: 1%;
+		padding-left: 3.5%;
+	}
+
+	.div_section{
+		width: 100%;
+		padding-top: 1.5%;
+		padding-bottom: 2%;
+		padding-left: 3.5%;
+		padding-right: 3.5%;
+	}
+
+	.div_section_1{
+		
+		width: 30%;
+		height: auto;
+		padding-left: 5.5%;
+		display: block;
+		float: left;
+		margin-top: 2%;
+
+	}
+
+
+	.div_section_2{	
+		display: block;
+		width: auto;
+		height: auto;
+		padding: 0.5% 5% 1% 30%;
+	}
+
+	.div_section_education{
+		
+		width: auto;
+		margin-top: 0.5%;
+		display: block;
+		padding: 1% 2.5% 1% 2.5%;
+
+
+	}
+
+
+	.div_sub_title_section{
+		margin-top: 1%;
+		margin-bottom: 1%;
+		float: left;
+		display: inline-block;
+		width: 100%;
+		padding-left: 3.5%;
+	
+	}
+
+ 	
+ 	.linea{
+ 		border-bottom: 1.3px ridge;
+ 		margin: 3% 2% 1% 4%;
+ 	}
+
+
+
+
+	.p_body_section{
+		line-height: 200%;
+		padding - top: 2%;
+		padding-left: 3%;
+		padding-right: 3%;
+		color: #84919B;
+		font-weight: normal;
+		font-size: 120%;
+		font-family: Helvetica,Arial,Times,optima;
+	}
+
+
+
+
+
+	.div_header_class{
+
+		padding-top: 1%;
+		padding-bottom: 0.1%;
+		background: #082C4D;
+
+	}
+
+
+	.div_nav_class{
+		padding-top: 0%;
+		padding-bottom: 0%;
+		margin-top: 0.2%;
+		margin-bottom: 0.2%;
+	}
+
+
+
+
+
+
+	.h1_header_class{
+		font-weight: bold;
+		color: #84919B;
+		font-size: 300%;
+		font-family: Helvetica,Arial,Times,optima;
+		margin: 0.5%;
+		letter-spacing: 8px;
+		display: inline-block;
+		width: auto 100%;
+	}
+
+	.h1_header_class:first-letter{
+		color: #4E6D6F;
+	}
+
+	.h2_class{
+	    color: #3075b2;
+		font-weight: bold;
+		font-size: 150%;
+		font-family: Helvetica,Arial,Times,optima,;
+		letter-spacing: 1px;
+		padding-left: 3%;
+		padding-top: 1%;
+		padding-bottom: 1%;
+	}
+
+	.h2_header_class{
+		color: #4E6D6F;
+		padding-top: 0.7%;
+		padding-bottom: 0.5%;
+		margin-top: -0.2%;
+		margin-bottom: 0.5%;
+		letter-spacing: 8px;
+		font-family: Helvetica,Arial,Times,optima;
+		font-size: 120%;
+		width: auto;
+		text-align: center;
+	}
+
+
+	.footer_img{
+		width: 100%;
+		margin-top: 5%;
+	}
+
+	.p_footer{
+		text-align: center;
+		margin-top: 2%;
+		margin-bottom: 2%;
+		font-weight: normal;
+		font-size: 100%;
+		font-family: Helvetica,Arial,Times,optima;
+		color: #84919B;
+	}
+
+
+	.fa-md{
+		padding: 0% 0.4% 0% 0%;
+	}
+
+
+	.ul_class{
+		line-height: 300%;
+		list-style-type: square;
+		list-style-image: url('../imgs/list_icon.png');
+		padding-left: 4%;
+		padding-top: 0.5%;
+		padding-bottom: 0.7%;
+		color: #84919B;
+	}
+
+
+
+	.li_class{
+		padding-left: 0.5%;
+		color: #84919B;
+		font-weight: normal;
+		font-size: 120%;
+		font-family: Helvetica,Arial,Times,optima;
+	}
+
+
+
+
+
+
+
+
+ /* ----- Classes for <h2> Experiences tag ------ */
+
+	.h2_position{
+		line-height: 120%;
+		padding-left: 4%;
+		color: #84919B;
+		font-weight: bold;
+		font-size: 130%;
+		font-family: Helvetica,Arial,Times,optima;
+	}
+
+	.h2_employer{
+		line-height: 120%;
+		padding: 0.3% 0% 0% 4%;
+		color: #84919B;
+		font-weight: normal;
+		font-size: 110%;
+		font-family: Helvetica,Arial,Times,optima;
+	}
+
+
+	.i_link{
+		padding: 0% 0.2% 0% 0%;
+	}
+
+    .a_link{
+  		line-height: 120%;
+		padding: 0% 0% 4% 4%;
+		color: #888888;
+		font-weight: bold;
+		text-decoration: none;
+		font-size: 120%;
+		font-family: Helvetica,Arial,Times,optima;    	
+    }
+
+    .a_link:hover{
+    	text-decoration: none;
+    }
+
+	.h2_location{
+		line-height: 120%;
+		padding-left: 4%;
+		color: #84919B;
+		font-weight: normal;
+		font-size: 110%;
+		font-family: Helvetica,Arial,Times,optima;
+	}
+
+	.h2_date{
+		line-height: 120%;
+		padding-left: 4%;
+		color: #84919B;
+		font-weight: normal;
+		font-size: 110%;
+		font-family: Helvetica,Arial,Times,optima;
+	}
+
+
+    /* ----- Classes for <a> download tag ------ */
+
+
+	.div_link_download{
+		padding-top: 0.4%;
+		margin-left: 3%;
+		width: 30%;
+		height: 1.8em;
+		display: block;
+	}
+
+	.a_link_download{
+		color: #3075b2;
+		font-weight: normal;
+		font-size: 100%;
+		font-family: Helvetica,Arial,Times,optima;
+		text-decoration: none;
+	}
+
+	.a_link_download:hover{
+		color: #DC5F1A;
+		font-weight: normal;
+		font-size: 100%;
+		font-family: Helvetica,Arial,Times,optima;
+		text-decoration: none;
+	}
+
+   /* ------------------------------------------- */
+
+}
+
+
+
+
+
+
+/* Media Query for Large Screens */
+/* *************************** */
+@media all and (min-width: 2150px){
+
+
+	.fixed-header{
+		position: fixed;
+		width: 100%;
+		background: #5177B6;
+		text-align: center;
+		border-bottom-color: #fff;
+		border-bottom-style: solid;
+		border-bottom-width: 4px;
+			
+	}
+
+	.fixed-header{
+		top:0;
+	}
+
+	html{
+		height: 100%;
+	}
+
+	body{
+		min-height: 100vh;
+		margin: 0px;           /* Space between all Body and Browser */
+		padding-top: 90px;
+	}
+
+
+	nav a{
+		display: inline-block;
+		font-weight: bold;
+		font-size: 80%;
+		font-family: Helvetica,Arial,Times,optima;
+		text-align: center;
+		color: #ECEEEF;
+		width: auto;
+		margin: 0.01% 0.01% 0% 0.01%;
+		padding: 0.5% 0.5% 0.5% 0.5%;                                                
+		text-decoration: none; /* get rid off underline design */
+		letter-spacing: 3px;
+		border-radius: 3px;	
+	}
+
+
+	nav a:hover{
+		background: #fff;
+		color: #082C4D;
+		border-radius: 3px;
+		text-decoration: none;
+	}
+	
+
+	.a_active{
+		background: #fff;
+		color: #082C4D;
+		border-radius: 3px;
+	}
+
+	.tooltip.bs-tooltip-bottom .tooltip-inner {
+ 		background:#4E6D6F !important;
+ 	}
+
+ 	.tooltip .arrow:before {
+ 		border-bottom-color:#4E6D6F !important;
+  		border-top-color:#4E6D6F !important;
+ 	 }
+
+
+	.div_title_section{
+		margin-top: 10%;
+		margin-bottom: 1%;
+		padding-left: 3.5%;
+
+	}
+
+	.div_section{
+		width: 100%;
+		padding-top: 0.7%;
+		padding-bottom: 1%;
+		padding-left: 3.5%;
+		padding-right: 4%;
+	}
+
+	.div_section_1{
+		
+		width: 30%;
+		height: auto;
+		padding-left: 5.5%;
+		display: block;
+		float: left;
+		margin-top: 2%;
+
+	}
+
+	.div_section_2{	
+		display: block;
+		width: auto;
+		height: auto;
+		padding: 0.5% 5% 1% 30%;
+	}
+
+	.div_section_education{
+		
+		width: auto;
+		margin-top: 0.5%;
+		display: block;
+		padding: 0.5% 2.5% 0.5% 2.5%;
+
+	}
+
+
+	.div_sub_title_section{
+		margin-top: 1%;
+		margin-bottom: 1%;
+		float: left;
+		display: inline-block;
+		width: 100%;
+		padding-left: 3.5%;
+	
+	}
+
+ 	
+ 	.linea{
+ 		border-bottom: 1.3px ridge;
+ 		margin: 3% 2% 1% 4%;
+ 	}
+
+
+
+
+	.p_body_section{
+		line-height: 200%;
+		padding - top: 2%;
+		padding-left: 3%;
+		padding-right: 3%;
+		color: #84919B;
+		font-weight: normal;
+		font-size: 120%;
+		font-family: Helvetica,Arial,Times,optima;
+	}
+
+
+
+
+
+	.div_header_class{
+		padding-top: 1%;
+		padding-bottom: 0.1%;
+		background: #082C4D;
+
+	}
+
+
+	.div_nav_class{
+		padding-top: 0%;
+		padding-bottom: 0%;
+		margin-top: -0.01%;
+		margin-bottom: -0.01%;
+	}
+
+
+
+
+
+
+	.h1_header_class{
+		font-weight: bold;
+		color: #84919B;
+		font-size: 300%;
+		font-family: Helvetica,Arial,Times,optima;
+		margin: 0.5%;
+		letter-spacing: 8px;
+		display: inline-block;
+		width: auto 100%;
+	}
+
+	.h1_header_class:first-letter{
+		color: #4E6D6F;
+	}
+
+	.h2_class{
+	    color: #3075b2;
+		font-weight: bold;
+		font-size: 165%;
+		font-family: Helvetica,Arial,Times,optima,;
+		letter-spacing: 1px;
+		padding-left: 3%;
+		padding-top: 1%;
+		padding-bottom: 1%;
+	}
+
+	.h2_header_class{
+		color: #4E6D6F;
+		padding-top: 0.7%;
+		padding-bottom: 0.5%;
+		margin-top: -0.2%;
+		margin-bottom: 0.5%;
+		letter-spacing: 8px;
+		font-family: Helvetica,Arial,Times,optima;
+		font-size: 120%;
+		width: auto;
+		text-align: center;
+	}
+
+
+	.footer_img{
+		width: 100%;
+		margin-top: 5%;
+	}
+
+	.p_footer{
+		text-align: center;
+		margin-top: 2%;
+		margin-bottom: 2%;
+		font-weight: normal;
+		font-size: 100%;
+		font-family: Helvetica,Arial,Times,optima;
+		color: #84919B;
+	}
+
+
+	.fa-md{
+		padding: 0% 0.4% 0% 0%;
+	}
+
+
+	.ul_class{
+		line-height: 320%;
+		list-style-type: square;
+		list-style-image: url('../imgs/list_icon.png');
+		padding-left: 4%;
+		padding-top: 1%;
+		padding-bottom: 1%;
+		color: #84919B;
+	}
+
+
+	.li_class{
+		padding-left: 0.5%;
+		color: #84919B;
+		font-weight: normal;
+		font-size: 120%;
+		font-family: Helvetica,Arial,Times,optima;
+	}
+
+
+
+
+
+
+
+
+ /* ----- Classes for <h2> Experiences tag ------ */
+
+	.h2_position{
+		line-height: 120%;
+		padding-left: 4%;
+		color: #84919B;
+		font-weight: bold;
+		font-size: 140%;
+		font-family: Helvetica,Arial,Times,optima;
+	}
+
+	.h2_employer{
+		line-height: 120%;
+		padding: 0.3% 0% 0% 4%;
+		color: #84919B;
+		font-weight: normal;
+		font-size: 110%;
+		font-family: Helvetica,Arial,Times,optima;
+	}
+
+	.i_link{
+		padding: 0% 0.2% 0% 0%;
+	}
+
+    .a_link{
+  		line-height: 120%;
+		padding: 0% 0% 4% 4%;
+		color: #888888;
+		font-weight: normal;
+		text-decoration: none;
+		/*font-style: italic;*/
+		font-size: 120%;
+		font-family: Helvetica,Arial,Times,optima;    	
+    }
+
+    .a_link:hover{
+    	text-decoration: none;
+    }
+
+
+
+	.h2_location{
+		line-height: 120%;
+		padding: 0% 0% 0% 4%;
+		color: #84919B;
+		font-weight: normal;
+		font-size: 110%;
+		font-family: Helvetica,Arial,Times,optima;
+	}
+
+	.h2_date{
+		line-height: 120%;
+		padding-left: 4%;
+		color: #84919B;
+		font-weight: normal;
+		font-size: 110%;
+		font-family: Helvetica,Arial,Times,optima;
+	}
+
+
+    /* ----- Classes for <a> download tag ------ */
+
+	.div_link_download{
+		padding-top: 0.4%;
+		margin-left: 3%;
+		width: 30%;
+		height: 1.8em;
+		display: block;
+	}
+
+	.a_link_download{
+		color: #3075b2;
+		font-weight: normal;
+		font-size: 100%;
+		font-family: Helvetica,Arial,Times,optima;
+		text-decoration: none;
+	}
+
+	.a_link_download:hover{
+		color: #DC5F1A;
+		font-weight: normal;
+		font-size: 100%;
+		font-family: Helvetica,Arial,Times,optima;
+		text-decoration: none;
+	}
+
+   /* ------------------------------------------- */
+
+
+
+
+}
