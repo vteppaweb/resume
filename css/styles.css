@@ -167,7 +167,35 @@
 		margin-top: 1%;
 		display: block;
 		padding: 1% 2.5% 1% 2.5%;
-}
+	}
+
+	.div_border{
+		border: 0.7px solid #e5e5e5;
+		padding: 4% 5% 2% 0.2%;
+		margin: 2% 4% 2% 1%;
+
+	}
+
+	.div_border:hover{
+		border: 0.7px solid #4E6D6F;
+		padding: 4% 5% 2% 0.2%;
+		margin: 2% 4% 2% 1%;
+
+		/* Browser Support */
+		-webkit-transition-property: border;
+		-moz-transition-property: border;
+		-o-transition-property: border;
+
+		-webkit-transition-duration: .7s;
+		-moz-transition-duration: .7s;
+		-o-transition-duration: .7s;
+		
+		-webkit-transition-delay: .2s;
+		-moz-transition-delay: .2s;
+		-o-transition-delay: .2s;
+	}
+
+
 	.linea{
 	 	border-bottom: 1.3px ridge;
 	 	margin: 3% 2% 1% 4%;
@@ -431,6 +459,33 @@
 		padding: 1% 2.5% 1% 2.5%;
 	}
 
+	.div_border{
+		border: 0.7px solid #e5e5e5;
+		padding: 1% 5% 1% 0.2%;
+		margin: 0% 4% 0% 4%;
+
+	}
+
+	.div_border:hover{
+		border: 0.7px solid #4E6D6F;
+		padding: 1% 5% 1% 0.2%;
+		margin: 0% 4% 0% 4%;
+
+		/* Browser Support */
+		-webkit-transition-property: border;
+		-moz-transition-property: border;
+		-o-transition-property: border;
+
+		-webkit-transition-duration: .7s;
+		-moz-transition-duration: .7s;
+		-o-transition-duration: .7s;
+		
+		-webkit-transition-delay: .2s;
+		-moz-transition-delay: .2s;
+		-o-transition-delay: .2s;
+	}
+
+
 	.linea{
  		border-bottom: 1.3px ridge;
  		margin: 3% 2% 1% 4%;
@@ -440,11 +495,7 @@
 	.div_sub_title_section{
 		margin-top: 1%;
 		margin-bottom: 1%;
-		float: left;
-		display: inline-block;
-		width: 100%;
 		padding-left: 3.5%;
-	
 	}
 
 
@@ -564,7 +615,7 @@
 
 	.h2_position{
 		line-height: 120%;
-		padding-left: 4%;
+		padding-left: 2%;
 		color: #84919B;
 		font-weight: bold;
 		font-size: 130%;
@@ -573,7 +624,7 @@
 
 	.h2_employer{
 		line-height: 120%;
-		padding: 0.3% 0% 0% 4%;
+		padding: 0.3% 0% 0% 2%;
 		color: #84919B;
 		font-weight: normal;
 		font-size: 110%;
@@ -587,7 +638,7 @@
 
     .a_link{
   		line-height: 120%;
-		padding: 0% 0% 4% 4%;
+		padding: 0% 0% 4% 2%;
 		color: #888888;
 		font-weight: bold;
 		text-decoration: none;
@@ -601,7 +652,7 @@
 
 	.h2_location{
 		line-height: 120%;
-		padding-left: 4%;
+		padding-left: 2%;
 		color: #84919B;
 		font-weight: normal;
 		font-size: 110%;
@@ -610,7 +661,7 @@
 
 	.h2_date{
 		line-height: 120%;
-		padding-left: 4%;
+		padding-left: 2%;
 		color: #84919B;
 		font-weight: normal;
 		font-size: 110%;
@@ -769,6 +820,35 @@
 
 	}
 
+	.div_border{
+		border: 0.7px solid #e5e5e5;
+		padding: 1% 5% 1% 0.2%;
+		margin: 0% 4% 0% 4%;
+
+	}
+
+
+	.div_border:hover{
+		border: 0.7px solid #4E6D6F;
+		padding: 1% 5% 1% 0.2%;
+		margin: 0% 4% 0% 4%;
+
+		/* Browser Support */
+		-webkit-transition-property: border;
+		-moz-transition-property: border;
+		-o-transition-property: border;
+
+		-webkit-transition-duration: .7s;
+		-moz-transition-duration: .7s;
+		-o-transition-duration: .7s;
+		
+		-webkit-transition-delay: .2s;
+		-moz-transition-delay: .2s;
+		-o-transition-delay: .2s;
+	}
+
+
+
 	.linea{
  		border-bottom: 1.3px ridge;
  		margin: 3% 2% 1% 4%;
@@ -778,9 +858,6 @@
 	.div_sub_title_section{
 		margin-top: 1%;
 		margin-bottom: 1%;
-		float: left;
-		display: inline-block;
-		width: 100%;
 		padding-left: 3.5%;
 	
 	}
@@ -907,7 +984,7 @@
 
 	.h2_position{
 		line-height: 120%;
-		padding-left: 4%;
+		padding-left: 2%;
 		color: #84919B;
 		font-weight: bold;
 		font-size: 130%;
@@ -916,7 +993,7 @@
 
 	.h2_employer{
 		line-height: 120%;
-		padding: 0.3% 0% 0% 4%;
+		padding: 0.3% 0% 0% 2%;
 		color: #84919B;
 		font-weight: normal;
 		font-size: 110%;
@@ -930,7 +1007,7 @@
 
     .a_link{
   		line-height: 120%;
-		padding: 0% 0% 4% 4%;
+		padding: 0% 0% 4% 2%;
 		color: #888888;
 		font-weight: bold;
 		text-decoration: none;
@@ -944,7 +1021,7 @@
 
 	.h2_location{
 		line-height: 120%;
-		padding-left: 4%;
+		padding-left: 2%;
 		color: #84919B;
 		font-weight: normal;
 		font-size: 110%;
@@ -953,7 +1030,7 @@
 
 	.h2_date{
 		line-height: 120%;
-		padding-left: 4%;
+		padding-left: 2%;
 		color: #84919B;
 		font-weight: normal;
 		font-size: 110%;
@@ -1044,6 +1121,70 @@
  		border-bottom-color:#4E6D6F !important;
   		border-top-color:#4E6D6F !important;
  	 }	
+
+
+ /* ----- Classes for <h2> Experiences tag ------ */
+
+	.h2_position{
+		line-height: 120%;
+		padding-left: 2%;
+		color: #84919B;
+		font-weight: bold;
+		font-size: 130%;
+		font-family: Helvetica,Arial,Times,optima;
+	}
+
+	.h2_employer{
+		line-height: 120%;
+		padding: 0.3% 0% 0% 2%;
+		color: #84919B;
+		font-weight: normal;
+		font-size: 110%;
+		font-family: Helvetica,Arial,Times,optima;
+	}
+
+
+	.i_link{
+		padding: 0% 0.2% 0% 0%;
+	}
+
+    .a_link{
+  		line-height: 120%;
+		padding: 0% 0% 4% 2%;
+		color: #888888;
+		font-weight: bold;
+		text-decoration: none;
+		font-size: 120%;
+		font-family: Helvetica,Arial,Times,optima;    	
+    }
+
+    .a_link:hover{
+    	text-decoration: none;
+    }
+
+	.h2_location{
+		line-height: 120%;
+		padding-left: 2%;
+		color: #84919B;
+		font-weight: normal;
+		font-size: 110%;
+		font-family: Helvetica,Arial,Times,optima;
+	}
+
+	.h2_date{
+		line-height: 120%;
+		padding-left: 2%;
+		color: #84919B;
+		font-weight: normal;
+		font-size: 110%;
+		font-family: Helvetica,Arial,Times,optima;
+	}
+
+
+
+
+
+
 }
 
 
@@ -1172,13 +1313,36 @@
 
 	}
 
+	.div_border{
+		border: 0.7px solid #e5e5e5;
+		padding: 1% 5% 1% 0.2%;
+		margin: 0% 4% 0% 4%;
+
+	}
+
+	.div_border:hover{
+		border: 0.7px solid #4E6D6F;
+		padding: 1% 5% 1% 0.2%;
+		margin: 0% 4% 0% 4%;
+
+		/* Browser Support */
+		-webkit-transition-property: border;
+		-moz-transition-property: border;
+		-o-transition-property: border;
+
+		-webkit-transition-duration: .7s;
+		-moz-transition-duration: .7s;
+		-o-transition-duration: .7s;
+		
+		-webkit-transition-delay: .2s;
+		-moz-transition-delay: .2s;
+		-o-transition-delay: .2s;
+	}
+
 
 	.div_sub_title_section{
 		margin-top: 1%;
 		margin-bottom: 1%;
-		float: left;
-		display: inline-block;
-		width: 100%;
 		padding-left: 3.5%;
 	
 	}
@@ -1320,7 +1484,7 @@
 
 	.h2_position{
 		line-height: 120%;
-		padding-left: 4%;
+		padding-left: 2%;
 		color: #84919B;
 		font-weight: bold;
 		font-size: 130%;
@@ -1329,7 +1493,7 @@
 
 	.h2_employer{
 		line-height: 120%;
-		padding: 0.3% 0% 0% 4%;
+		padding: 0.3% 0% 0% 2%;
 		color: #84919B;
 		font-weight: normal;
 		font-size: 110%;
@@ -1343,7 +1507,7 @@
 
     .a_link{
   		line-height: 120%;
-		padding: 0% 0% 4% 4%;
+		padding: 0% 0% 4% 2%;
 		color: #888888;
 		font-weight: bold;
 		text-decoration: none;
@@ -1357,7 +1521,7 @@
 
 	.h2_location{
 		line-height: 120%;
-		padding-left: 4%;
+		padding-left: 2%;
 		color: #84919B;
 		font-weight: normal;
 		font-size: 110%;
@@ -1366,7 +1530,7 @@
 
 	.h2_date{
 		line-height: 120%;
-		padding-left: 4%;
+		padding-left: 2%;
 		color: #84919B;
 		font-weight: normal;
 		font-size: 110%;
@@ -1519,17 +1683,42 @@
 		width: auto;
 		margin-top: 0.5%;
 		display: block;
-		padding: 0.5% 2.5% 0.5% 2.5%;
+		
+		
 
 	}
+
+	.div_border{
+		border: 0.7px solid #e5e5e5;
+		padding: 1% 5% 1% 0.2%;
+		margin: 0% 4% 0% 4%;
+
+	}
+
+	.div_border:hover{
+		border: 0.7px solid #4E6D6F;
+		padding: 1% 5% 1% 0.2%;
+		margin: 0% 4% 0% 4%;
+
+		/* Browser Support */
+		-webkit-transition-property: border;
+		-moz-transition-property: border;
+		-o-transition-property: border;
+
+		-webkit-transition-duration: .7s;
+		-moz-transition-duration: .7s;
+		-o-transition-duration: .7s;
+		
+		-webkit-transition-delay: .2s;
+		-moz-transition-delay: .2s;
+		-o-transition-delay: .2s;
+	}
+
 
 
 	.div_sub_title_section{
 		margin-top: 1%;
 		margin-bottom: 1%;
-		float: left;
-		display: inline-block;
-		width: 100%;
 		padding-left: 3.5%;
 	
 	}
@@ -1669,7 +1858,7 @@
 
 	.h2_position{
 		line-height: 120%;
-		padding-left: 4%;
+		padding: 0% 0% 0% 0.9%;
 		color: #84919B;
 		font-weight: bold;
 		font-size: 140%;
@@ -1678,7 +1867,7 @@
 
 	.h2_employer{
 		line-height: 120%;
-		padding: 0.3% 0% 0% 4%;
+		padding: 0.3% 0% 0% 0.9%;
 		color: #84919B;
 		font-weight: normal;
 		font-size: 110%;
@@ -1691,7 +1880,7 @@
 
     .a_link{
   		line-height: 120%;
-		padding: 0% 0% 4% 4%;
+		padding: 0% 0% 4% 0.9%;
 		color: #888888;
 		font-weight: normal;
 		text-decoration: none;
@@ -1708,7 +1897,7 @@
 
 	.h2_location{
 		line-height: 120%;
-		padding: 0% 0% 0% 4%;
+		padding: 0% 0% 0% 0.9%;
 		color: #84919B;
 		font-weight: normal;
 		font-size: 110%;
@@ -1717,7 +1906,7 @@
 
 	.h2_date{
 		line-height: 120%;
-		padding-left: 4%;
+		padding-left: 0.9%;
 		color: #84919B;
 		font-weight: normal;
 		font-size: 110%;
