@@ -712,7 +712,7 @@
 
 	.div_link_download{
 		padding-top: 0.8%;
-		margin-left: 3%;
+		margin-left: 1.5%;
 		width: 25%;
 		height: 1.8em;
 		display: block;
@@ -1101,7 +1101,7 @@
 
 	.div_link_download{
 		padding-top: 0.6%;
-		margin-left: 3%;
+		margin-left: 0.5%;
 		width: 25%;
 		height: 1.8em;
 		display: block;
@@ -1286,6 +1286,14 @@
 		font-weight: normal;
 		font-size: 120%;
 		font-family: Helvetica,Arial,Times,optima;
+	}
+
+	.div_link_download{
+		padding-top: 0.6%;
+		margin-left: 0%;
+		width: 25%;
+		height: 1.8em;
+		display: block;
 	}
 
 }
@@ -1665,7 +1673,7 @@
 
 	.div_link_download{
 		padding-top: 0.4%;
-		margin-left: 3%;
+		margin-left: 0.5%;
 		width: 30%;
 		height: 1.8em;
 		display: block;
@@ -2059,7 +2067,7 @@
 
 	.div_link_download{
 		padding-top: 0.4%;
-		margin-left: 3%;
+		margin-left: 1%;
 		width: 30%;
 		height: 1.8em;
 		display: block;
