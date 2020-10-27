@@ -348,11 +348,29 @@
 		text-align: center;
 		margin-top: 2%;
 		margin-bottom: 2%;
-		font-weight: bold;
+		font-weight: normal;
 		font-size: 100%;
 		font-family: Helvetica,Arial,Times,optima;
-		color: #84919B;
+		color: #84919B;	
 	}
+
+	.a_footer{
+		color: #3075b2;
+		font-weight: normal;
+		font-size: 100%;
+		font-family: Helvetica,Arial,Times,optima;
+		text-decoration: none;
+	}
+
+	.a_footer:hover{
+		color: #DC5F1A;
+		font-weight: normal;
+		font-size: 100%;
+		font-family: Helvetica,Arial,Times,optima;
+		text-decoration: none;
+	}
+
+
 
 	.fa-md{
 		padding: 0% 0.4% 0% 0%;
@@ -620,6 +638,23 @@
 		font-size: 100%;
 		font-family: Helvetica,Arial,Times,optima;
 		color: #84919B;
+		
+	}
+
+	.a_footer{
+		color: #3075b2;
+		font-weight: normal;
+		font-size: 100%;
+		font-family: Helvetica,Arial,Times,optima;
+		text-decoration: none;
+	}
+
+	.a_footer:hover{
+		color: #DC5F1A;
+		font-weight: normal;
+		font-size: 100%;
+		font-family: Helvetica,Arial,Times,optima;
+		text-decoration: none;
 	}
 
 	.fa-md{
@@ -1011,6 +1046,22 @@
 		color: #84919B;
 	}
 
+	.a_footer{
+		color: #3075b2;
+		font-weight: normal;
+		font-size: 100%;
+		font-family: Helvetica,Arial,Times,optima;
+		text-decoration: none;
+	}
+
+	.a_footer:hover{
+		color: #DC5F1A;
+		font-weight: normal;
+		font-size: 100%;
+		font-family: Helvetica,Arial,Times,optima;
+		text-decoration: none;
+	}
+
 	.fa-md{
 		padding: 0% 0.4% 0% 0%;
 	}
@@ -1296,6 +1347,8 @@
 		display: block;
 	}
 
+
+
 }
 
 
@@ -1574,6 +1627,22 @@
 		font-size: 100%;
 		font-family: Helvetica,Arial,Times,optima;
 		color: #84919B;
+	}
+
+	.a_footer{
+		color: #3075b2;
+		font-weight: normal;
+		font-size: 100%;
+		font-family: Helvetica,Arial,Times,optima;
+		text-decoration: none;
+	}
+
+	.a_footer:hover{
+		color: #DC5F1A;
+		font-weight: normal;
+		font-size: 100%;
+		font-family: Helvetica,Arial,Times,optima;
+		text-decoration: none;
 	}
 
 
@@ -1960,6 +2029,7 @@
 		margin-top: 5%;
 	}
 
+
 	.p_footer{
 		text-align: center;
 		margin-top: 2%;
@@ -1967,8 +2037,25 @@
 		font-weight: normal;
 		font-size: 100%;
 		font-family: Helvetica,Arial,Times,optima;
-		color: #84919B;
+		color: #84919B;	
 	}
+
+	.a_footer{
+		color: #3075b2;
+		font-weight: normal;
+		font-size: 100%;
+		font-family: Helvetica,Arial,Times,optima;
+		text-decoration: none;
+	}
+
+	.a_footer:hover{
+		color: #DC5F1A;
+		font-weight: normal;
+		font-size: 100%;
+		font-family: Helvetica,Arial,Times,optima;
+		text-decoration: none;
+	}
+
 
 
 	.fa-md{
