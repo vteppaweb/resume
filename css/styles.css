@@ -131,7 +131,7 @@
 /* ------------------------------------------- */
 
 	.div_title_section{
-		margin: 150% 0% 1% 0%;
+		margin: 115% 0% 1% 0%;
 	}
 
 	.h2_class{
@@ -169,7 +169,7 @@
 	.div_border{
 		border: 0.7px solid #e5e5e5;
 		padding: 5% 0% 5% 2%;
-		margin: 1% 2% 7% 2%;
+		/*margin: 1% 1% 2% 1%;*/
 	}
 
 
@@ -356,7 +356,7 @@
 
 
 	.div_title_section{
-		margin: 90% 0% 1% 0%;
+		margin: 75% 0% 1% 0%;
 	}
 
 }
@@ -473,7 +473,7 @@
 	.div_border{
 		border: 0.7px solid #e5e5e5;
 		padding: 5% 0% 5% 2%;
-		margin: 1% 2% 7% 2%;
+		/*margin: 1% 2% 7% 2%;*/
 	}
 
 
@@ -833,8 +833,8 @@
 
 	.div_border{
 		border: 0.7px solid #e5e5e5;
-		padding: 4% 4% 4% 4%;
-		margin: 2% 3% 5% 3%;
+		padding: 4% 3% 4% 3%;
+		/*margin: 2% 3% 5% 3%;*/
 	}
 
 
@@ -1364,7 +1364,7 @@
 	.div_border{
 		border: 0.7px solid #e5e5e5;
 		padding: 4% 4% 4% 1%;
-		margin: 2% 3% 5% 3%;
+		/*margin: 2% 3% 5% 3%;*/
 	}
 
 
@@ -1687,7 +1687,8 @@
 
 
 	.div_title_section{
-		margin: 20% 0% 1% 0%;
+		margin: 20% 0% 1% 1%;
+
 	}
 
 
@@ -1722,7 +1723,7 @@
 	.div_border{
 		border: 0.7px solid #e5e5e5;
 		padding: 4% 4% 4% 1%;
-		margin: 2% 3% 5% 3%;
+		/*margin: 2% 1% 5% 1%;*/
 	}
 
 
