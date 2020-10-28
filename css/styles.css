@@ -38,10 +38,10 @@
 	.h1_header_class{
 		font-weight: bold;
 		color: #84919B;
-		font-size: 230%;
+		font-size: 200%;
 		font-family: Helvetica,Arial,Times,optima;
 		margin: 0.5%;
-		letter-spacing: 8px;
+		letter-spacing: 6px;
 		display: inline-block;
 		width: auto 100%;
 	}
@@ -52,13 +52,13 @@
 
 	.h2_header_class{
 		color: #4E6D6F;
-		padding-top: 0.7%;
-		padding-bottom: 0.5%;
+		padding-top: 0.9%;
+		padding-bottom: 0.9%;
 		margin-top: -0.2%;
 		margin-bottom: 0.5%;
-		letter-spacing: 8px;
+		letter-spacing: 6px;
 		font-family: Helvetica,Arial,Times,optima;
-		font-size: 120%;
+		font-size: 100%;
 		width: auto;
 		text-align: center;
 	}
