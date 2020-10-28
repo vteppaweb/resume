@@ -1,9 +1,13 @@
 
 
+
+
 	body{
 		
 		margin: 0px;           /* Space between all Body and Browser */
-		/*padding-top: 2%;*/
+		padding-right: 4%;
+		padding-left: 4%;
+
 	}
 
 
@@ -125,45 +129,19 @@
 /* ------------------------------------------- */
 
 	.div_title_section{
-		margin-top: 5%;
-		margin-bottom: 1%;
+		margin: 95% 0% 1% 0%;
 	}
 
 	.h2_class{
-	    color: #3075b2;
+		color: #5177B6;
 		font-weight: bold;
-		font-size: 150%;
-		font-family: Helvetica,Arial,Times,optima;
+		font-size: 165%;
+		font-family: Helvetica,Arial,Times,optima,;
 		letter-spacing: 1px;
-		padding-left: 3%;
-		padding-top: 1%;
-		padding-bottom: 0.5%;
+		padding-bottom: 1%;
 	}
 
-	.div_section{
-		padding: 0.7% 4% 1% 0.5%;
-		border: 0.7px solid #e5e5e5;
-		margin: 0% 4% 0% 3%;
-	}
 
-	.div_section:hover{
-		padding: 0.7% 4% 1% 0.5%;
-		border: 0.7px solid #4E6D6F;
-		margin: 0% 4% 0% 3%;
-
-		/* Browser Support */
-		-webkit-transition-property: border;
-		-moz-transition-property: border;
-		-o-transition-property: border;
-
-		-webkit-transition-duration: .7s;
-		-moz-transition-duration: .7s;
-		-o-transition-duration: .7s;
-		
-		-webkit-transition-delay: .2s;
-		-moz-transition-delay: .2s;
-		-o-transition-delay: .2s;
-	}
 
 	.div_section_1{
 		background: #ffffff;
@@ -188,28 +166,8 @@
 
 	.div_border{
 		border: 0.7px solid #e5e5e5;
-		padding: 4% 5% 2% 0.2%;
-		margin: 2% 4% 2% 1%;
-
-	}
-
-	.div_border:hover{
-		border: 0.7px solid #4E6D6F;
-		padding: 4% 5% 2% 0.2%;
-		margin: 2% 4% 2% 1%;
-
-		/* Browser Support */
-		-webkit-transition-property: border;
-		-moz-transition-property: border;
-		-o-transition-property: border;
-
-		-webkit-transition-duration: .7s;
-		-moz-transition-duration: .7s;
-		-o-transition-duration: .7s;
-		
-		-webkit-transition-delay: .2s;
-		-moz-transition-delay: .2s;
-		-o-transition-delay: .2s;
+		padding: 5% 0% 5% 2%;
+		margin: 1% 2% 7% 2%;
 	}
 
 
@@ -221,7 +179,8 @@
 
 	.p_body_section{
 		line-height: 200%;
-		margin-top: 1.5%;
+		margin-top: 1%;
+		margin-right: 1%;
 		padding - top: 2%;
 		padding-left: 3%;
 		padding-right: 3%;
@@ -229,7 +188,10 @@
 		font-weight: normal;
 		font-size: 120%;
 		font-family: Helvetica,Arial,Times,optima;
+		text-align: justify;
 	}
+
+
 
 
 
@@ -238,9 +200,9 @@
 		list-style-type: square;
 		list-style-image: url('../imgs/list_icon.png');
 		padding-left: 5%;
-		padding-top: 0.4%;
-		padding-bottom: 1%;
 		color: #84919B;
+		width: 100%;
+
 	}
 
 	.li_class{
@@ -252,11 +214,16 @@
 	}
 
 
+
+
+
+
+
 /* ----- Classes for <h2> Experiences tag ------ */
 
 	.h2_position{
 		line-height: 120%;
-		padding-left: 4%;
+		padding: 3% 0% 0% 0%;
 		color: #082C4D;
 		opacity: 68%;
 		font-weight: bold;
@@ -266,7 +233,7 @@
 
 	.h2_employer{
 		line-height: 120%;
-		padding: 0.3% 0% 0% 4%;
+		padding: 1% 0% 0% 0%;
 		color: #84919B;
 		font-weight: normal;
 		font-size: 110%;
@@ -275,12 +242,12 @@
 
 
 	.i_link{
-		padding: 0% 0.2% 0% 0%;
+		padding: 1% 0% 0% 0%;
 	}
 
     .a_link{
   		line-height: 120%;
-		padding: 0% 0% 4% 4%;
+		padding: 1% 0% 0% 0%;
 		color: #888888;
 		font-weight: bold;
 		text-decoration: none;
@@ -294,7 +261,7 @@
 
 	.h2_location{
 		line-height: 120%;
-		padding-left: 4%;
+		padding: 1% 0% 0% 0%;
 		color: #84919B;
 		font-weight: normal;
 		font-size: 110%;
@@ -303,7 +270,7 @@
 
 	.h2_date{
 		line-height: 120%;
-		padding-left: 4%;
+		padding: 1% 0% 0% 0%;
 		color: #84919B;
 		font-weight: normal;
 		font-size: 110%;
@@ -457,35 +424,11 @@
 
 
 	.div_title_section{
-		margin-top: 10%;
-		margin-bottom: 1%;
-		padding-left: 3.5%;
+		margin: 12% 0% 1% 0%;
 	}
 
-	.div_section{
-		padding: 0.7% 4% 1% 0.5%;
-		border: 0.7px solid #e5e5e5;
-		margin: 0% 6.5% 0% 6.5%;
-	}
 
-	.div_section:hover{
-		padding: 0.7% 4% 1% 0.5%;
-		border: 0.7px solid #4E6D6F;
-		margin: 0% 6.5% 0% 6.5%;
 
-		/* Browser Support */
-		-webkit-transition-property: border;
-		-moz-transition-property: border;
-		-o-transition-property: border;
-
-		-webkit-transition-duration: .7s;
-		-moz-transition-duration: .7s;
-		-o-transition-duration: .7s;
-		
-		-webkit-transition-delay: .2s;
-		-moz-transition-delay: .2s;
-		-o-transition-delay: .2s;
-	}
 
 	.div_section_1{
 		
@@ -513,31 +456,14 @@
 		padding: 1% 2.5% 1% 2.5%;
 	}
 
+
+
 	.div_border{
 		border: 0.7px solid #e5e5e5;
-		padding: 1% 5% 1% 0.2%;
-		margin: 0% 4% 0% 4%;
-
+		padding: 5% 0% 5% 2%;
+		margin: 1% 2% 7% 2%;
 	}
 
-	.div_border:hover{
-		border: 0.7px solid #4E6D6F;
-		padding: 1% 5% 1% 0.2%;
-		margin: 0% 4% 0% 4%;
-
-		/* Browser Support */
-		-webkit-transition-property: border;
-		-moz-transition-property: border;
-		-o-transition-property: border;
-
-		-webkit-transition-duration: .7s;
-		-moz-transition-duration: .7s;
-		-o-transition-duration: .7s;
-		
-		-webkit-transition-delay: .2s;
-		-moz-transition-delay: .2s;
-		-o-transition-delay: .2s;
-	}
 
 
 	.linea{
@@ -555,16 +481,19 @@
 
 
 
+
 	.p_body_section{
+		margin-top: 1%;
 		line-height: 200%;
 		padding - top: 2%;
-		padding-left: 3%;
-		padding-right: 3%;
-		margin-top: 1%;
+		padding-left: 1.5%;
+		padding-right: 1%;
+		margin-right: 2%;
 		color: #84919B;
 		font-weight: normal;
 		font-size: 120%;
 		font-family: Helvetica,Arial,Times,optima;
+		text-align: justify;
 	}
 
 
@@ -603,13 +532,11 @@
 	}
 
 	.h2_class{
-	    color: #3075b2;
+		color: #5177B6;
 		font-weight: bold;
-		font-size: 150%;
+		font-size: 165%;
 		font-family: Helvetica,Arial,Times,optima,;
 		letter-spacing: 1px;
-		padding-left: 3%;
-		padding-top: 1%;
 		padding-bottom: 1%;
 	}
 
@@ -667,9 +594,9 @@
 		list-style-type: square;
 		list-style-image: url('../imgs/list_icon.png');
 		padding-left: 4.5%;
-		padding-top: 0.4%;
-		padding-bottom: 1%;
 		color: #84919B;
+		width: 100%;
+
 	}
 
 
@@ -683,11 +610,15 @@
 
 
 
+
+
+
+
 /* ----- Classes for <h2> Experiences tag ------ */
 
 	.h2_position{
 		line-height: 120%;
-		padding-left: 2%;
+		padding: 0% 0% 0% 0%;
 		color: #082C4D;
 		opacity: 68%;
 		font-weight: bold;
@@ -697,7 +628,7 @@
 
 	.h2_employer{
 		line-height: 120%;
-		padding: 0.3% 0% 0% 2%;
+		padding: 1% 0% 0% 0%;
 		color: #84919B;
 		font-weight: normal;
 		font-size: 110%;
@@ -706,12 +637,12 @@
 
 
 	.i_link{
-		padding: 0% 0.2% 0% 0%;
+		padding: 1% 0% 0% 0%;
 	}
 
     .a_link{
   		line-height: 120%;
-		padding: 0% 0% 4% 2%;
+		padding: 1% 0% 0% 0%;
 		color: #888888;
 		font-weight: bold;
 		text-decoration: none;
@@ -725,7 +656,7 @@
 
 	.h2_location{
 		line-height: 120%;
-		padding-left: 2%;
+		padding: 1% 0% 0% 0%;
 		color: #84919B;
 		font-weight: normal;
 		font-size: 110%;
@@ -734,7 +665,7 @@
 
 	.h2_date{
 		line-height: 120%;
-		padding-left: 2%;
+		padding: 1% 0% 0% 0%;
 		color: #84919B;
 		font-weight: normal;
 		font-size: 110%;
@@ -852,36 +783,11 @@
 
 
 	.div_title_section{
-		margin-top: 10%;
-		margin-bottom: 1%;
-		padding-left: 3.5%;
+		margin: 12% 0% 1% 0%;
 	}
 
 
-	.div_section{
-		padding: 1.5% 3.5% 2% 3.5%;
-		border: 0.7px solid #e5e5e5;
-		margin: 0% 7% 0% 6.5%;
-	}
 
-	.div_section:hover{
-		padding: 1.5% 3.5% 2% 3.5%;
-		border: 0.7px solid #4E6D6F;
-		margin: 0% 7% 0% 6.5%;
-
-		/* Browser Support */
-		-webkit-transition-property: border;
-		-moz-transition-property: border;
-		-o-transition-property: border;
-
-		-webkit-transition-duration: .7s;
-		-moz-transition-duration: .7s;
-		-o-transition-duration: .7s;
-		
-		-webkit-transition-delay: .2s;
-		-moz-transition-delay: .2s;
-		-o-transition-delay: .2s;
-	}
 
 
 	.div_section_1{
@@ -912,33 +818,12 @@
 
 	}
 
+
 	.div_border{
 		border: 0.7px solid #e5e5e5;
-		padding: 1% 5% 1% 0.2%;
-		margin: 0% 6.5% 0% 4%;
-
+		padding: 4% 4% 4% 4%;
+		margin: 2% 3% 5% 3%;
 	}
-
-
-	.div_border:hover{
-		border: 0.7px solid #4E6D6F;
-		padding: 1% 5% 1% 0.2%;
-		margin: 0% 6.5% 0% 4%;
-
-		/* Browser Support */
-		-webkit-transition-property: border;
-		-moz-transition-property: border;
-		-o-transition-property: border;
-
-		-webkit-transition-duration: .7s;
-		-moz-transition-duration: .7s;
-		-o-transition-duration: .7s;
-		
-		-webkit-transition-delay: .2s;
-		-moz-transition-delay: .2s;
-		-o-transition-delay: .2s;
-	}
-
 
 
 	.linea{
@@ -956,15 +841,16 @@
 
 
 	.p_body_section{
-		line-height: 200%;
 		margin-top: 1%;
+		line-height: 200%;
 		padding - top: 2%;
-		padding-left: 0%;
-		padding-right: 3%;
+		padding-left: 1.5%;
+		padding-right: 1%;
 		color: #84919B;
 		font-weight: normal;
 		font-size: 120%;
 		font-family: Helvetica,Arial,Times,optima;
+		text-align: justify;
 	}
 
 
@@ -1007,13 +893,11 @@
 	}
 
 	.h2_class{
-	    color: #3075b2;
+		color: #5177B6;
 		font-weight: bold;
-		font-size: 150%;
+		font-size: 165%;
 		font-family: Helvetica,Arial,Times,optima,;
 		letter-spacing: 1px;
-		padding-left: 3%;
-		padding-top: 1%;
 		padding-bottom: 1%;
 	}
 
@@ -1072,9 +956,8 @@
 		list-style-type: square;
 		list-style-image: url('../imgs/list_icon.png');
 		padding-left: 1.7%;
-		padding-top: 0.5%;
-		padding-bottom: 0.6%;
 		color: #84919B;
+		width: 100%;
 	}
 
 
@@ -1089,11 +972,17 @@
 
 
 
+
+
+
+
+
+
 /* ----- Classes for <h2> Experiences tag ------ */
 
 	.h2_position{
 		line-height: 120%;
-		padding-left: 2%;
+		padding: 0% 0% 0% 0%;
 		color: #082C4D;
 		opacity: 68%;
 		font-weight: bold;
@@ -1103,7 +992,7 @@
 
 	.h2_employer{
 		line-height: 120%;
-		padding: 0.3% 0% 0% 2%;
+		padding: 1% 0% 0% 0%;
 		color: #84919B;
 		font-weight: normal;
 		font-size: 110%;
@@ -1112,12 +1001,12 @@
 
 
 	.i_link{
-		padding: 0% 0.2% 0% 0%;
+		padding: 1% 0% 0% 0%;
 	}
 
     .a_link{
   		line-height: 120%;
-		padding: 0% 0% 4% 2%;
+		padding: 1% 0% 0% 0%;
 		color: #888888;
 		font-weight: bold;
 		text-decoration: none;
@@ -1131,7 +1020,7 @@
 
 	.h2_location{
 		line-height: 120%;
-		padding-left: 2%;
+		padding: 1% 0% 0% 0%;
 		color: #84919B;
 		font-weight: normal;
 		font-size: 110%;
@@ -1140,7 +1029,7 @@
 
 	.h2_date{
 		line-height: 120%;
-		padding-left: 2%;
+		padding: 1% 0% 0% 0%;
 		color: #84919B;
 		font-weight: normal;
 		font-size: 110%;
@@ -1237,7 +1126,7 @@
 
 	.h2_position{
 		line-height: 120%;
-		padding-left: 2%;
+		padding: 0% 0% 0% 0%;
 		color: #082C4D;
 		opacity: 68%;
 		font-weight: bold;
@@ -1247,7 +1136,7 @@
 
 	.h2_employer{
 		line-height: 120%;
-		padding: 0.3% 0% 0% 2%;
+		padding: 1% 0% 0% 0%;
 		color: #84919B;
 		font-weight: normal;
 		font-size: 110%;
@@ -1256,12 +1145,12 @@
 
 
 	.i_link{
-		padding: 0% 0.2% 0% 0%;
+		padding: 1% 0% 0% 0%;
 	}
 
     .a_link{
   		line-height: 120%;
-		padding: 0% 0% 4% 2%;
+		padding: 1% 0% 0% 0%;
 		color: #888888;
 		font-weight: bold;
 		text-decoration: none;
@@ -1275,7 +1164,7 @@
 
 	.h2_location{
 		line-height: 120%;
-		padding-left: 2%;
+		padding: 1% 0% 0% 0%;
 		color: #84919B;
 		font-weight: normal;
 		font-size: 110%;
@@ -1284,59 +1173,48 @@
 
 	.h2_date{
 		line-height: 120%;
-		padding-left: 2%;
+		padding: 1% 0% 0% 0%;
 		color: #84919B;
 		font-weight: normal;
 		font-size: 110%;
 		font-family: Helvetica,Arial,Times,optima;
 	}
 
-	.div_section{
-		padding: 1.5% 3.5% 2% 3.5%;
-		border: 0.7px solid #e5e5e5;
-		margin: 0% 6.5% 0% 6.5%;
-	}
+/* ----------------------------------------------------------- */
 
-	.div_section:hover{
-		padding: 1.5% 3.5% 2% 3.5%;
-		border: 0.7px solid #4E6D6F;
-		margin: 0% 6.5% 0% 6.5%;
 
-		/* Browser Support */
-		-webkit-transition-property: border;
-		-moz-transition-property: border;
-		-o-transition-property: border;
-
-		-webkit-transition-duration: .7s;
-		-moz-transition-duration: .7s;
-		-o-transition-duration: .7s;
-		
-		-webkit-transition-delay: .2s;
-		-moz-transition-delay: .2s;
-		-o-transition-delay: .2s;
-	}
 
 	.ul_class{
 		line-height: 300%;
 		list-style-type: square;
 		list-style-image: url('../imgs/list_icon.png');
 		padding-left: 1%;
-		padding-top: 0.5%;
-		padding-bottom: 0.7%;
 		color: #84919B;
+		width: 100%;
 	}
 
 
-	.p_body_section{
-		line-height: 200%;
-		padding - top: 2%;
-		padding-left: 0%;
-		padding-right: 3%;
-		margin-top: 1%;
+	.li_class{
+		padding-left: 0.5%;
 		color: #84919B;
 		font-weight: normal;
 		font-size: 120%;
 		font-family: Helvetica,Arial,Times,optima;
+	}
+
+
+
+	.p_body_section{
+		margin-top: 1%;
+		line-height: 200%;
+		padding - top: 2%;
+		padding-left: 1.5%;
+		padding-right: 1%;
+		color: #84919B;
+		font-weight: normal;
+		font-size: 120%;
+		font-family: Helvetica,Arial,Times,optima;
+		text-align: justify;
 	}
 
 	.div_link_download{
@@ -1435,35 +1313,11 @@
 
 
 	.div_title_section{
-		margin-top: 10%;
-		margin-bottom: 1%;
-		padding-left: 3.5%;
+		margin: 13% 0% 1% 0%;
 	}
 
-	.div_section{
-		padding: 1.5% 3.5% 2% 2.5%;
-		border: 0.7px solid #e5e5e5;
-		margin: 0% 6.5% 0% 6.5%;
-	}
 
-	.div_section:hover{
-		padding: 1.5% 3.5% 2% 2.5%;
-		border: 0.7px solid #4E6D6F;
-		margin: 0% 6.5% 0% 6.5%;
 
-		/* Browser Support */
-		-webkit-transition-property: border;
-		-moz-transition-property: border;
-		-o-transition-property: border;
-
-		-webkit-transition-duration: .7s;
-		-moz-transition-duration: .7s;
-		-o-transition-duration: .7s;
-		
-		-webkit-transition-delay: .2s;
-		-moz-transition-delay: .2s;
-		-o-transition-delay: .2s;
-	}
 
 	.div_section_1{
 		
@@ -1494,30 +1348,11 @@
 
 	}
 
+
 	.div_border{
 		border: 0.7px solid #e5e5e5;
-		padding: 1% 5% 1% 0%;
-		margin: 0% 4% 0% 4%;
-
-	}
-
-	.div_border:hover{
-		border: 0.7px solid #4E6D6F;
-		padding: 1% 5% 1% 0%;
-		margin: 0% 4% 0% 4%;
-
-		/* Browser Support */
-		-webkit-transition-property: border;
-		-moz-transition-property: border;
-		-o-transition-property: border;
-
-		-webkit-transition-duration: .7s;
-		-moz-transition-duration: .7s;
-		-o-transition-duration: .7s;
-		
-		-webkit-transition-delay: .2s;
-		-moz-transition-delay: .2s;
-		-o-transition-delay: .2s;
+		padding: 4% 4% 4% 1%;
+		margin: 2% 3% 5% 3%;
 	}
 
 
@@ -1536,20 +1371,18 @@
 
 
 
-
 	.p_body_section{
-		line-height: 200%;
 		margin-top: 1%;
+		line-height: 200%;
 		padding - top: 2%;
-		padding-left: 0.4%;
-		padding-right: 3%;
+		padding-left: 1.5%;
+		padding-right: 1%;
 		color: #84919B;
 		font-weight: normal;
 		font-size: 120%;
 		font-family: Helvetica,Arial,Times,optima;
+		text-align: justify;
 	}
-
-
 
 
 
@@ -1590,13 +1423,11 @@
 	}
 
 	.h2_class{
-	    color: #3075b2;
+		color: #5177B6;
 		font-weight: bold;
-		font-size: 150%;
+		font-size: 165%;
 		font-family: Helvetica,Arial,Times,optima,;
 		letter-spacing: 1px;
-		padding-left: 3%;
-		padding-top: 1%;
 		padding-bottom: 1%;
 	}
 
@@ -1656,9 +1487,8 @@
 		list-style-type: square;
 		list-style-image: url('../imgs/list_icon.png');
 		padding-left: 1.5%;
-		padding-top: 0.5%;
-		padding-bottom: 0.7%;
 		color: #84919B;
+		width: 100%;
 	}
 
 
@@ -1677,12 +1507,11 @@
 
 
 
-
  /* ----- Classes for <h2> Experiences tag ------ */
 
 	.h2_position{
 		line-height: 120%;
-		padding-left: 2%;
+		padding: 0% 0% 0% 0%;
 		color: #082C4D;
 		opacity: 68%;
 		font-weight: bold;
@@ -1692,7 +1521,7 @@
 
 	.h2_employer{
 		line-height: 120%;
-		padding: 0.3% 0% 0% 2%;
+		padding: 1% 0% 0% 0%;
 		color: #84919B;
 		font-weight: normal;
 		font-size: 110%;
@@ -1701,12 +1530,12 @@
 
 
 	.i_link{
-		padding: 0% 0.2% 0% 0%;
+		padding: 1% 0% 0% 0%;
 	}
 
     .a_link{
   		line-height: 120%;
-		padding: 0% 0% 4% 2%;
+		padding: 1% 0% 0% 0%;
 		color: #888888;
 		font-weight: bold;
 		text-decoration: none;
@@ -1720,7 +1549,7 @@
 
 	.h2_location{
 		line-height: 120%;
-		padding-left: 2%;
+		padding: 1% 0% 0% 0%;
 		color: #84919B;
 		font-weight: normal;
 		font-size: 110%;
@@ -1729,7 +1558,7 @@
 
 	.h2_date{
 		line-height: 120%;
-		padding-left: 2%;
+		padding: 1% 0% 0% 0%;
 		color: #84919B;
 		font-weight: normal;
 		font-size: 110%;
@@ -1801,6 +1630,7 @@
 		min-height: 100vh;
 		margin: 0px;           /* Space between all Body and Browser */
 		padding-top: 85px;
+
 	}
 
 
@@ -1845,36 +1675,10 @@
 
 
 	.div_title_section{
-		margin-top: 10%;
-		margin-bottom: 1%;
-		padding-left: 3.5%;
-
+		margin: 20% 0% 1% 0%;
 	}
 
-	.div_section{
-		padding: 0.7% 6% 1% 0.5%;
-		border: 0.7px solid #e5e5e5;
-		margin: 0% 6.5% 0% 6.5%;
-	}
 
-	.div_section:hover{
-		padding: 0.7% 6% 1% 0.5%;
-		border: 0.7px solid #4E6D6F;
-		margin: 0% 6.5% 0% 6.5%;
-
-		/* Browser Support */
-		-webkit-transition-property: border;
-		-moz-transition-property: border;
-		-o-transition-property: border;
-
-		-webkit-transition-duration: .7s;
-		-moz-transition-duration: .7s;
-		-o-transition-duration: .7s;
-		
-		-webkit-transition-delay: .2s;
-		-moz-transition-delay: .2s;
-		-o-transition-delay: .2s;
-	}
 
 	.div_section_1{
 		
@@ -1900,36 +1704,14 @@
 		margin-top: 0.5%;
 		display: block;
 		
-		
-
 	}
+
 
 	.div_border{
 		border: 0.7px solid #e5e5e5;
-		padding: 1% 5% 1% 0.2%;
-		margin: 0% 4% 0% 4%;
-
+		padding: 4% 4% 4% 1%;
+		margin: 2% 3% 5% 3%;
 	}
-
-	.div_border:hover{
-		border: 0.7px solid #4E6D6F;
-		padding: 1% 5% 1% 0.2%;
-		margin: 0% 4% 0% 4%;
-
-		/* Browser Support */
-		-webkit-transition-property: border;
-		-moz-transition-property: border;
-		-o-transition-property: border;
-
-		-webkit-transition-duration: .7s;
-		-moz-transition-duration: .7s;
-		-o-transition-duration: .7s;
-		
-		-webkit-transition-delay: .2s;
-		-moz-transition-delay: .2s;
-		-o-transition-delay: .2s;
-	}
-
 
 
 	.div_sub_title_section{
@@ -1953,11 +1735,12 @@
 		line-height: 200%;
 		padding - top: 2%;
 		padding-left: 1.5%;
-		padding-right: 3%;
+		padding-right: 1%;
 		color: #84919B;
 		font-weight: normal;
 		font-size: 120%;
 		font-family: Helvetica,Arial,Times,optima;
+		text-align: justify;
 	}
 
 
@@ -2005,8 +1788,6 @@
 		font-size: 165%;
 		font-family: Helvetica,Arial,Times,optima,;
 		letter-spacing: 1px;
-		padding-left: 3%;
-		padding-top: 1%;
 		padding-bottom: 1%;
 	}
 
@@ -2068,9 +1849,9 @@
 		list-style-type: square;
 		list-style-image: url('../imgs/list_icon.png');
 		padding-left: 2.5%;
-		padding-top: 1%;
-		padding-bottom: 1%;
 		color: #84919B;
+		width: 100%;
+
 	}
 
 
@@ -2093,7 +1874,7 @@
 
 	.h2_position{
 		line-height: 120%;
-		padding: 0% 0% 0% 0.9%;
+		padding: 0% 0% 0% 0%;
 		color: #082C4D;
 		opacity: 68%;
 		font-weight: bold;
@@ -2103,7 +1884,7 @@
 
 	.h2_employer{
 		line-height: 120%;
-		padding: 0.3% 0% 0% 0.9%;
+		padding: 1% 0% 0% 0%;
 		color: #84919B;
 		font-weight: normal;
 		font-size: 110%;
@@ -2111,16 +1892,15 @@
 	}
 
 	.i_link{
-		padding: 0% 0.2% 0% 0%;
+		padding: 1% 0% 0% 0%;
 	}
 
     .a_link{
   		line-height: 120%;
-		padding: 0% 0% 4% 0.9%;
+		padding: 1% 0% 0% 0%;
 		color: #888888;
 		font-weight: normal;
 		text-decoration: none;
-		/*font-style: italic;*/
 		font-size: 120%;
 		font-family: Helvetica,Arial,Times,optima;    	
     }
@@ -2133,7 +1913,7 @@
 
 	.h2_location{
 		line-height: 120%;
-		padding: 0% 0% 0% 0.9%;
+		padding: 1% 0% 0% 0%;
 		color: #84919B;
 		font-weight: normal;
 		font-size: 110%;
@@ -2142,7 +1922,7 @@
 
 	.h2_date{
 		line-height: 120%;
-		padding-left: 0.9%;
+		padding: 1% 0% 0% 0%;
 		color: #84919B;
 		font-weight: normal;
 		font-size: 110%;
@@ -2177,7 +1957,6 @@
 	}
 
    /* ------------------------------------------- */
-
 
 
 
