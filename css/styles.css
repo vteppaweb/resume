@@ -3,8 +3,6 @@
 	body{
 		
 		margin: 0px;           /* Space between all Body and Browser */
-		padding-right: 4%;
-		padding-left: 4%;
 
 	}
 
@@ -132,6 +130,15 @@
 
 	.div_title_section{
 		margin: 85% 0% 1% 0%;
+		padding: 0% 0% 0% 1%;
+		text-align: left;
+	}
+
+	.div_sub_title_section{
+		margin: 2% 0% 2% 0%;
+		padding: 0% 0% 0% 1%;
+		text-align: left;
+
 	}
 
 	.h2_class{
@@ -140,7 +147,7 @@
 		font-size: 165%;
 		font-family: Helvetica,Arial,Times,optima,;
 		letter-spacing: 1px;
-		padding-bottom: 1%;
+		padding: 2% 0% 2% 0%;
 	}
 
 
@@ -173,10 +180,6 @@
 	}
 
 
-	.linea{
-	 	border-bottom: 1.3px ridge;
-	 	margin: 3% 2% 1% 4%;
-	 }	
 
 
 	.p_body_section{
@@ -192,8 +195,6 @@
 		font-family: Helvetica,Arial,Times,optima;
 		text-align: justify;
 	}
-
-
 
 
 
@@ -214,8 +215,6 @@
 		font-size: 120%;
 		font-family: Helvetica,Arial,Times,optima;
 	}
-
-
 
 
 
@@ -356,8 +355,18 @@
 
 
 	.div_title_section{
-		margin: 75% 0% 1% 0%;
+		margin: 75% 0% 1% 0%;		
+		padding: 0% 0% 0% 1%;
+		text-align: left;
 	}
+
+	.div_sub_title_section{
+		margin: 2% 0% 2% 0%;
+		padding: 0% 0% 0% 1%;
+		text-align: left;
+
+	}
+
 
 }
 
@@ -437,6 +446,8 @@
 
 	.div_title_section{
 		margin: 12% 0% 1% 0%;
+		padding: 0% 0% 0% 0%;
+		text-align: left;
 	}
 
 
@@ -478,20 +489,12 @@
 
 
 
-	.linea{
- 		border-bottom: 1.3px ridge;
- 		margin: 3% 2% 1% 4%;
- 	}	
-
-
 	.div_sub_title_section{
-		margin-top: 1%;
-		margin-bottom: 1%;
-		padding-left: 3.5%;
+		margin: 2% 0% 2% 0%;
+		padding: 0% 0% 0% 0%;
+		text-align: left;
+
 	}
-
-
-
 
 
 	.p_body_section{
@@ -549,7 +552,7 @@
 		font-size: 165%;
 		font-family: Helvetica,Arial,Times,optima,;
 		letter-spacing: 1px;
-		padding-bottom: 1%;
+		padding: 1% 0% 1% 0%;
 	}
 
 	.h2_header_class{
@@ -796,6 +799,8 @@
 
 	.div_title_section{
 		margin: 12% 0% 1% 0%;
+		padding: 0% 0% 0% 0%;
+		text-align: left;
 	}
 
 
@@ -838,17 +843,10 @@
 	}
 
 
-	.linea{
- 		border-bottom: 1.3px ridge;
- 		margin: 3% 2% 1% 4%;
- 	}	
-
-
 	.div_sub_title_section{
-		margin-top: 1%;
-		margin-bottom: 1%;
-		padding-left: 3.5%;
-	
+		margin: 2% 0% 2% 0%;
+		padding: 0% 0% 0% 0%;
+		text-align: left;
 	}
 
 
@@ -864,8 +862,6 @@
 		font-family: Helvetica,Arial,Times,optima;
 		text-align: justify;
 	}
-
-
 
 
 	.div_header_class{
@@ -910,7 +906,7 @@
 		font-size: 165%;
 		font-family: Helvetica,Arial,Times,optima,;
 		letter-spacing: 1px;
-		padding-bottom: 1%;
+		padding: 1% 0% 1% 0%;
 	}
 
 	.h2_header_class{
@@ -1326,6 +1322,8 @@
 
 	.div_title_section{
 		margin: 13% 0% 1% 0%;
+		padding: 0% 0% 0% 0%;
+		text-align: left;
 	}
 
 
@@ -1369,19 +1367,12 @@
 
 
 	.div_sub_title_section{
-		margin-top: 1%;
-		margin-bottom: 1%;
-		padding-left: 3.5%;
-	
+		margin: 2% 0% 2% 0%;
+		padding: 0% 0% 0% 0%;
+		text-align: left;
 	}
 
  	
- 	.linea{
- 		border-bottom: 1.3px ridge;
- 		margin: 3% 2% 1% 4%;
- 	}
-
-
 
 	.p_body_section{
 		margin-top: 1%;
@@ -1440,7 +1431,7 @@
 		font-size: 165%;
 		font-family: Helvetica,Arial,Times,optima,;
 		letter-spacing: 1px;
-		padding-bottom: 1%;
+		padding: 1% 0% 1% 0%;
 	}
 
 	.h2_header_class{
@@ -1688,10 +1679,15 @@
 
 	.div_title_section{
 		margin: 20% 0% 1% 0%;
-
+		padding: 0% 0% 0% 0%;
+		text-align: left;
 	}
 
-
+	.div_sub_title_section{
+		margin: 2% 0% 2% 0%;
+		padding: 0% 0% 0% 0%;
+		text-align: left;
+	}
 
 	.div_section_1{
 		
@@ -1727,21 +1723,6 @@
 	}
 
 
-	.div_sub_title_section{
-		margin-top: 1%;
-		margin-bottom: 1%;
-		padding-left: 3.5%;
-	
-	}
-
- 	
- 	.linea{
- 		border-bottom: 1.3px ridge;
- 		margin: 3% 2% 1% 4%;
- 	}
-
-
-
 
 	.p_body_section{
 		margin-top: 1%;
@@ -1755,9 +1736,6 @@
 		font-family: Helvetica,Arial,Times,optima;
 		text-align: justify;
 	}
-
-
-
 
 
 	.div_header_class{
@@ -1775,10 +1753,6 @@
 		margin-bottom: -0.01%;
 
 	}
-
-
-
-
 
 
 	.h1_header_class{
@@ -1802,7 +1776,7 @@
 		font-size: 165%;
 		font-family: Helvetica,Arial,Times,optima,;
 		letter-spacing: 1px;
-		padding-bottom: 1%;
+		padding: 1% 0% 1% 0%;
 	}
 
 	.h2_header_class{
@@ -1876,10 +1850,6 @@
 		font-size: 120%;
 		font-family: Helvetica,Arial,Times,optima;
 	}
-
-
-
-
 
 
 
@@ -1971,7 +1941,5 @@
 	}
 
    /* ------------------------------------------- */
-
-
 
 }
