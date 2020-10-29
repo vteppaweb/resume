@@ -191,7 +191,7 @@
 		padding-right: 3%;
 		color: #84919B;
 		font-weight: normal;
-		font-size: 120%;
+		font-size: 100%;
 		font-family: Helvetica,Arial,Times,optima;
 		text-align: justify;
 	}
@@ -212,7 +212,7 @@
 		padding-left: 0.5%;
 		color: #84919B;
 		font-weight: normal;
-		font-size: 120%;
+		font-size: 100%;
 		font-family: Helvetica,Arial,Times,optima;
 	}
 
@@ -237,7 +237,7 @@
 		padding: 1% 0% 0% 0%;
 		color: #84919B;
 		font-weight: normal;
-		font-size: 110%;
+		font-size: 100%;
 		font-family: Helvetica,Arial,Times,optima;
 	}
 
@@ -252,7 +252,7 @@
 		color: #888888;
 		font-weight: bold;
 		text-decoration: none;
-		font-size: 120%;
+		font-size: 100%;
 		font-family: Helvetica,Arial,Times,optima;    	
     }
 
@@ -265,7 +265,7 @@
 		padding: 1% 0% 0% 0%;
 		color: #84919B;
 		font-weight: normal;
-		font-size: 110%;
+		font-size: 100%;
 		font-family: Helvetica,Arial,Times,optima;
 	}
 
@@ -274,7 +274,7 @@
 		padding: 1% 0% 0% 0%;
 		color: #84919B;
 		font-weight: normal;
-		font-size: 110%;
+		font-size: 100%;
 		font-family: Helvetica,Arial,Times,optima;
 	}
 
@@ -294,7 +294,7 @@
 	.a_link_download{
 		color: #3075b2;
 		font-weight: normal;
-		font-size: 100%;
+		font-size: 90%;
 		font-family: Helvetica,Arial,Times,optima;
 		text-decoration: none;
 	}
@@ -302,7 +302,7 @@
 	.a_link_download:hover{
 		color: #DC5F1A;
 		font-weight: normal;
-		font-size: 100%;
+		font-size: 90%;
 		font-family: Helvetica,Arial,Times,optima;
 		text-decoration: none;
 	}
@@ -317,7 +317,7 @@
 		margin-top: 2%;
 		margin-bottom: 2%;
 		font-weight: normal;
-		font-size: 100%;
+		font-size: 85%;
 		font-family: Helvetica,Arial,Times,optima;
 		color: #84919B;	
 	}
@@ -325,7 +325,7 @@
 	.a_footer{
 		color: #3075b2;
 		font-weight: normal;
-		font-size: 100%;
+		font-size: 85%;
 		font-family: Helvetica,Arial,Times,optima;
 		text-decoration: none;
 	}
@@ -333,7 +333,7 @@
 	.a_footer:hover{
 		color: #DC5F1A;
 		font-weight: normal;
-		font-size: 100%;
+		font-size: 85%;
 		font-family: Helvetica,Arial,Times,optima;
 		text-decoration: none;
 	}
@@ -355,7 +355,7 @@
 
 
 	.div_title_section{
-		margin: 75% 0% 1% 0%;		
+		margin: 65% 0% 1% 0%;		
 		padding: 0% 0% 0% 1%;
 		text-align: left;
 	}
@@ -445,7 +445,7 @@
 
 
 	.div_title_section{
-		margin: 12% 0% 1% 0%;
+		margin: 8% 0% 1% 0%;
 		padding: 0% 0% 0% 0%;
 		text-align: left;
 	}
@@ -798,7 +798,7 @@
 
 
 	.div_title_section{
-		margin: 12% 0% 1% 0%;
+		margin: 10% 0% 1% 0%;
 		padding: 0% 0% 0% 0%;
 		text-align: left;
 	}
@@ -1678,7 +1678,7 @@
 
 
 	.div_title_section{
-		margin: 24% 0% 1% 0%;
+		margin: 20% 0% 1% 0%;
 		padding: 0% 0% 0% 0%;
 		text-align: left;
 	}
