@@ -25,37 +25,61 @@
             $('[data-toggle="tooltip"]').tooltip();
         }
 
-        function showDate(){
-	
-			var fecha = new Date();
-			var diames = fecha.getDate();
-			var diasemana = fecha.getDay();
-			var mes = fecha.getMonth()+ 1;
-			var ano = fecha.getFullYear();
-			
-			
-			var textosemana = new Array(7);			
-			textosemana[0]="Sunday";
-			textosemana[1]="Monday";
-			textosemana[2]="Tuesday";
-			textosemana[3]="Wednesday";
-			textosemana[4]="Thursday";
-			textosemana[5]="Friday";
-			textosemana[6]="Saturday";
-			
-			var textomes = new Array (12);
-			textomes[1]="Jan";
-			textomes[2]="Feb";
-			textomes[3]="Mar";
-			textomes[4]="Apr";
-			textomes[5]="May";
-			textomes[6]="June";
-			textomes[7]="July";
-			textomes[7]="Aug";
-			textomes[9]="Sep";
-			textomes[10]="Oct";
-			textomes[11]="Nov";
-			textomes[12]="Dec";	
-	
-			document.getElementById('fecha').innerHTML = textosemana[diasemana] + ", " + textomes[mes] + " " + diames + "th " + " " + ano + "<br>";
-}
+
+
+          $(document).ready(function(){
+
+            // ToolTip
+            $('[data-toggle="tooltip"]').tooltip();
+
+            // Change Carousel Interval
+            $('#mycarousel').carousel({ interval: 5000});
+
+            // Botton Pause
+            $('#carousel-pause').click(function(){
+                $('#mycarousel').carousel('pause');
+            });
+            // Botton Play
+            //$('#carousel-play').click(function(){
+               // $('#mycarousel').carousel('cycle');
+            //});
+
+            // Change Bottons Play/Pause 
+            $('#carouselButton').click(function(){
+                if($('#carouselButton').children('span').hasClass('fa-pause')){
+                    $('#mycarousel').carousel('pause');
+                    $('#carouselButton').children('span').removeClass('fa-pause');
+                    $('#carouselButton').children('span').addClass('fa-play');
+                }
+                else if($('#carouselButton').children('span').hasClass('fa-play')){
+                    $('#mycarousel').carousel('cycle');
+                    $('#carouselButton').children('span').removeClass('fa-play');
+                    $('#carouselButton').children('span').addClass('fa-pause');
+                }
+                
+            });
+
+
+            // Login <a> tag to Show Login Modal
+            $('#a_loginModal').click(function(){
+
+                $('#loginModal').modal('show');
+            });
+
+
+          })
+
+
+
+    // MDB Lightbox Init
+    $(function () {
+    //$("#mdb-lightbox-ui").load("mdb-addons/mdb-lightbox-ui.html");
+   // $('#galleryModal').modal('show');
+    });
+
+
+               // Login <a> tag to Show Login Modal
+            $('#a_galleryModal').click(function(){
+
+                $('#galleryModal').modal('show');
+            });

@@ -4,12 +4,11 @@
 	<meta charset="utf-8" name="viewport" content="width=device-width,initial-scale=1">
 	<title>Resume - Victor Teppa</title>
 	<link rel="icon" type="image/png" href="imgs/icon.PNG">
-	<link rel="stylesheet" href="css/styles.css">
-	<script src="js/javascript.js"></script>
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel = "stylesheet" href = "css/bootstrap-social.css">
+  	<link rel="stylesheet" href="css/styles.css">
    	<!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.7.0/bootstrap-social/bootstrap-social.css"> -->
 </head>
 <body>
@@ -31,31 +30,67 @@
 
 				<a href="skills.html" data-toggle="tooltip" data-html="true" title="Professional & Personal Skills" data-placement="bottom"><i class="fa fa-plus-circle fa-lg"></i> Skills</a>
 
-<!-- 				<a href="portfolio.html" data-toggle="tooltip" data-html="true" title="Professional Portfolio Gallery" data-placement="bottom"><i class="fa fa-archive fa-lg"></i> Portfolio</a> -->
+				<a href="portfolio.html" class="a_active"><i class="fa fa-archive fa-lg"></i> Portfolio</a>
 
-				<a href="downloads.html" class="a_active"><i class="fa fa-download fa-lg" aria-hidden="true"></i> Downloads</a>
+				<a href="downloads.html" data-toggle="tooltip" data-html="true" title="Download Documents <br><strong>Resume.pdf</strong>" data-placement="bottom" ><i class="fa fa-download fa-lg" aria-hidden="true"></i> Downloads</a>
 			</nav>
 		</div>
 	</div>
 
 
+    <div id="galleryModal" class="modal fade" role="dialog">
+        <div class="modal-dialog modal-lg" role="content">
+            <div class="modal-content">
+                <div class="justify-content-center">
+                    <img alt="picture" src="https://mdbootstrap.com/img/Photos/Lightbox/Thumbnail/img%20(145).jpg" width="1600px" height="1067">
 
+                </div>
+            </div>
+        </div>
+    </div>
 
+ 
 	<div class="container">
-		<div class="row">
+		<div class="row row-content">
 			<div class="col-12 div_title_section">
-				<h2 class="h2_class">Downloads</h2>
+				<h2 class="h2_class">Previous Front End Design Works - Gallery</h2>
 			</div>		
 		</div>
-		<div class="row div_border">
-			<div class="col-12 d-flex justify-content-start">
-				<a class="a_link_download" href="https://vteppaweb.github.io/resume/files/CV_Victor_Teppa_IT_2020.pdf" target="pdf-frame"> 	<i class="fa fa-download fa-lg" color="#3075b2" aria-hidden="true"></i>		
-				Download Resume</a>		
-			</div>
-		</div>
+
+ <div class="row">
+  <div class="col-md-12">
+
+    <div id="mdb-lightbox-ui"></div>
+
+    <div class="mdb-lightbox">
+        <div class="row">
+            <div class="col-12 col-md-3">
+                 <a id="a_galleryModal" data-size="1600x1067">
+                  <img alt="picture" src="https://mdbootstrap.com/img/Photos/Lightbox/Thumbnail/img%20(145).jpg" class="img-fluid">
+                </a>                   
+            </div>
+            <div class="col-12 col-md-3">
+                <a href="https://mdbootstrap.com/img/Photos/Lightbox/Original/img%20(150).jpg" data-size="1600x1067">
+                  <img alt="picture" src="https://mdbootstrap.com/img/Photos/Lightbox/Thumbnail/img%20(150).jpg" class="img-fluid" />
+                </a>                  
+            </div>
+            <div class="col-12 col-md-3">
+                 <a href="https://mdbootstrap.com/img/Photos/Lightbox/Original/img%20(152).jpg" data-size="1600x1067">
+                  <img alt="picture" src="https://mdbootstrap.com/img/Photos/Lightbox/Thumbnail/img%20(152).jpg" class="img-fluid" />
+                </a>                     
+            </div>
+            <div class="col-12 col-md-3">
+                <a href="https://mdbootstrap.com/img/Photos/Lightbox/Original/img%20(42).jpg" data-size="1600x1067">
+                  <img alt="picture" src="https://mdbootstrap.com/img/Photos/Lightbox/Thumbnail/img%20(42).jpg" class="img-fluid" />
+                </a>                
+            </div>
+        </div>  
+    </div>
+  </div>
+</div>
+		
+
 	</div>
-
-
 
 
 	<img src="../imgs/footer.PNG" class="img-fluid rounded img-thumbnail mx-auto d-block footer_img" alt="Victor Teppa Front End Web Developer - Professional Resume">
@@ -79,11 +114,12 @@
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-    <!-- JavaScript Function for TOOLTIP -->
+    <script src="js/javascript.js"></script>
+    <!-- JavaScript Function for TOOLTIP 
     <script type="text/javascript">
         $(document).ready(function(){
             $('[data-toggle="tooltip"]').tooltip();
         });
-    </script>
+    </script>-->
 </body>
 </html>
