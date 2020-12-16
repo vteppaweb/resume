@@ -348,6 +348,24 @@
    /* ------------------------------------------- */
 
 
+/* ----  Image Gallery - Portfolio ----- */
+
+
+	#image-gallery .modal-footer{
+	  display: block;
+	}
+
+	.thumb{
+	  margin-top: 15px;
+	  margin-bottom: 15px;
+	}
+
+/* ------------------------------------- */
+
+
+
+
+
 
 
 /* Media Query for Big Screens */
