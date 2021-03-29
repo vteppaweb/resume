@@ -345,6 +345,36 @@
 		padding: 0% 0.4% 0% 0%;
 	}
 
+
+
+	.p_quote{
+		line-height: 170%;
+		margin-top: 5%;
+		padding - top: 3%;
+		padding-right: 1%;
+		color: #84919B;
+		font-weight: normal;
+		font-size: 90%;
+		font-family: Helvetica,Arial,Times,optima;
+		text-align: right;
+	}
+
+	.p_quote_title
+	{
+		line-height: 90%;
+		margin-top: 0%;
+		padding - top: 0%;
+		padding-right: 1%;
+		color: #84919B;
+		font-weight: normal;
+		font-size: 90%;
+		font-family: Helvetica,Arial,Times,optima;
+		text-align: right;	
+		font-style: italic;	
+	}
+
+
+
    /* ------------------------------------------- */
 
 
