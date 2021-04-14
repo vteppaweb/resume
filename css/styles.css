@@ -49,7 +49,8 @@
 	}
 
 	.h2_header_class{
-		color: #4E6D6F;
+		/*color: #4E6D6F;*/
+		color: #B7A364;
 		padding-top: 0.9%;
 		padding-bottom: 0.9%;
 		margin-top: -0.2%;
