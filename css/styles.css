@@ -618,7 +618,8 @@
 	}
 
 	.h2_header_class{
-		color: #4E6D6F;
+		color: #B7A364;
+		/*color: #4E6D6F;*/
 		padding-top: 0.7%;
 		padding-bottom: 0.5%;
 		margin-top: -0.2%;
@@ -972,9 +973,10 @@
 	}
 
 	.h2_header_class{
-		color: #4E6D6F;
+		/*color: #B7A364;*/
+		color: #B7A364;
 		padding-top: 0.7%;
-		padding-bottom: 0.5%;
+		padding-bottom: 0.9%;
 		margin-top: -0.2%;
 		margin-bottom: 0.5%;
 		letter-spacing: 8px;
@@ -1497,7 +1499,8 @@
 	}
 
 	.h2_header_class{
-		color: #4E6D6F;
+		/*color: #4E6D6F;*/
+		color: #B7A364;
 		padding-top: 0.7%;
 		padding-bottom: 0.5%;
 		margin-top: -0.2%;
@@ -1841,7 +1844,8 @@
 	}
 
 	.h2_header_class{
-		color: #4E6D6F;
+		color: #B7A364;
+		/*color: #4E6D6F;*/
 		padding-top: 0.7%;
 		padding-bottom: 0.5%;
 		margin-top: -0.2%;
