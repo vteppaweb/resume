@@ -200,14 +200,13 @@
 
 
 
-	.ul_class{
-		line-height: 230%;
+	.ul_class_index {
+		line-height: 200%;
 		list-style-type: square;
 		list-style-image: url('../imgs/list_icon.png');
-		padding-left: 5%;
+		padding-left: 6.5%;
 		color: #84919B;
 		width: 100%;
-
 	}
 
 	.li_class{
@@ -668,14 +667,14 @@
 	}
 
 
-	.ul_class{
+
+	.ul_class_index {
 		line-height: 270%;
 		list-style-type: square;
 		list-style-image: url('../imgs/list_icon.png');
-		padding-left: 4.5%;
+		padding-left: 4%;
 		color: #84919B;
 		width: 100%;
-
 	}
 
 
@@ -1064,6 +1063,15 @@
 		list-style-type: square;
 		list-style-image: url('../imgs/list_icon.png');
 		padding-left: 1.7%;
+		color: #84919B;
+		width: 100%;
+	}
+
+	.ul_class_index {
+		line-height: 270%;
+		list-style-type: square;
+		list-style-image: url('../imgs/list_icon.png');
+		padding-left: 4%;
 		color: #84919B;
 		width: 100%;
 	}
