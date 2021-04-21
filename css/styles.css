@@ -35,7 +35,8 @@
 
 	.h1_header_class{
 		font-weight: bold;
-		color: #84919B;
+		/*color: #84919B;*/
+		color: #fff;
 		font-size: 200%;
 		font-family: Helvetica,Arial,Times,optima;
 		margin: 0.5%;
@@ -44,9 +45,9 @@
 		width: auto 100%;
 	}
 
-	.h1_header_class:first-letter{
+/*	.h1_header_class:first-letter{
 		color: #4E6D6F;
-	}
+	}*/
 
 	.h2_header_class{
 		/*color: #4E6D6F;*/
@@ -598,7 +599,8 @@
 
 	.h1_header_class{
 		font-weight: bold;
-		color: #84919B;
+		/*color: #84919B;*/
+		color: #fff;
 		font-size: 300%;
 		font-family: Helvetica,Arial,Times,optima;
 		margin: 0.5%;
@@ -607,9 +609,9 @@
 		width: auto 100%;
 	}
 
-	.h1_header_class:first-letter{
+/*	.h1_header_class:first-letter{
 		color: #4E6D6F;
-	}
+	}*/
 
 	.h2_class{
 		color: #5177B6;
@@ -988,7 +990,8 @@
 
 	.h1_header_class{
 		font-weight: bold;
-		color: #84919B;
+		/*color: #84919B;*/
+		color: #fff;
 		font-size: 300%;
 		font-family: Helvetica,Arial,Times,optima;
 		margin: 0.5%;
@@ -997,10 +1000,10 @@
 		width: auto 100%;
 	}
 
-	.h1_header_class:first-letter{
+/*	.h1_header_class:first-letter{
 		color: #4E6D6F;
 	}
-
+*/
 	.h2_class{
 		color: #5177B6;
 		font-weight: bold;
@@ -1566,7 +1569,8 @@
 
 	.h1_header_class{
 		font-weight: bold;
-		color: #84919B;
+		/*color: #84919B;*/
+		color: #fff;
 		font-size: 300%;
 		font-family: Helvetica,Arial,Times,optima;
 		margin: 0.5%;
@@ -1575,9 +1579,9 @@
 		width: auto 100%;
 	}
 
-	.h1_header_class:first-letter{
+/*	.h1_header_class:first-letter{
 		color: #4E6D6F;
-	}
+	}*/
 
 	.h2_class{
 		color: #5177B6;
@@ -1952,7 +1956,8 @@
 
 	.h1_header_class{
 		font-weight: bold;
-		color: #84919B;
+		/*color: #84919B;*/
+		color: #fff;
 		font-size: 300%;
 		font-family: Helvetica,Arial,Times,optima;
 		margin: 0.5%;
@@ -1961,9 +1966,9 @@
 		width: auto 100%;
 	}
 
-	.h1_header_class:first-letter{
+/*	.h1_header_class:first-letter{
 		color: #4E6D6F;
-	}
+	}*/
 
 	.h2_class{
 		color: #5177B6;
