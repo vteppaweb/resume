@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fetch Api Exercise</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">     
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <label class="form-label mt-4">HTTP request to JSON Web Server | Fetch API</label>
+                <textarea rows="20" class="form-control" id="data" readonly></textarea>
+                <button type="submit" id="btnSubmit" class="btn btn-primary mt-2" onclick="getData();">Get Data</button>
+            </div>
+        </div>
+    </div>    
+    <script type="text/javascript">
+
+        async function getData(){
+            let myObject = await fetch("https://jsonplaceholder.typicode.com/posts");
+            let myData = await myObject.text();
+            document.getElementById('data').innerHTML = myData;
+            if(myData){
+                document.getElementById('btnSubmit').innerText = "Success";
+                document.getElementById('btnSubmit').className = "btn btn-success mt-2";                
+            }
+        }
+
+    </script>
+</body>
+</html>
