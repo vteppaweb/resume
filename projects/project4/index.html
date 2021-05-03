@@ -56,23 +56,53 @@
             </div>
         </div>                               
     </div>
-<!--     <div class="location">
-        <h1 class="location-timezone"></h1>
-    </div>
-    <div class="icon">
-        <img class="icon-image" src=""></img>
-    </div>
-    <div class="temperature">
-        <div class="degree-section">
-            <h2 class="temperature-degree"></h2>
-            <span>F</span>
-        </div>
-        <div class="temperature-description"></div>   
-    </div>
-    <div class="footer">
-        Powered by <a href="https://www.weatherapi.com/" title="Free Weather API"> WeatherAPI.com</a>
-    </div> -->
 
-    <script src="app.js"></script>
+    <!--<script src="app.js"></script>-->
+    <script type="text/javascript">
+
+        window.addEventListener('load',()=>{
+            let long;
+            let lat;
+            let temperatureDescription = document.querySelector('.description');
+            let temperatureDegree = document.querySelector('.temperature');
+            let locationtimezone = document.querySelector('.timezone');
+            let windSpeed = document.querySelector('.wind');
+            let humidity1 = document.querySelector('.humidity');
+            let iconImage = document.querySelector('.icon-image');
+   
+            if(navigator.geolocation){
+                navigator.geolocation.getCurrentPosition(position => {
+                    long = position.coords.longitude;
+                    lat = position.coords.latitude;
+                    const api = `https://api.weatherapi.com/v1/forecast.json?key=db58a49810d14220abb182012213004&q=${lat},${long}`;
+                    fetch(api)
+                    .then(response => {
+                        return response.json();
+                    })
+                    .then(data => {
+                    const {temp_f, wind_mph, humidity, condition} = data.current;
+                    const {tz_id, name } = data.location;
+                    // Set DOM Elements from the API:
+                    const temp = temp_f.toString();
+                    const temperatureNormal = temp.substring(2,3);
+                    if(temperatureNormal === "."){
+                        temperatureDegree.textContent = temp.substring(0,2);
+                    }
+                    else{
+                        temperatureDegree.textContent = temp_f;
+                    }   
+                    temperatureDescription.textContent = condition.text;
+                    locationtimezone.textContent = name;
+                    windSpeed.textContent = wind_mph + "mph";
+                    humidity1.textContent = humidity + "%"; 
+                    iconImage.src = condition.icon;    
+                    console.log(data);
+                    });
+                            
+                });       
+            } 
+        });    
+    </script>
+
 </body>
 </html>

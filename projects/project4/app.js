@@ -22,7 +22,14 @@ window.addEventListener('load',()=>{
                const {temp_f, wind_mph, humidity, condition} = data.current;
                const {tz_id, name } = data.location;
                // Set DOM Elements from the API:
+               const temp = temp_f.toString();
+               const temperatureNormal = temp.substring(2,3);
+               if(temperatureNormal === "."){
+                temperatureDegree.textContent = temp.substring(0,2);
+               }
+               else{
                 temperatureDegree.textContent = temp_f;
+               }   
                temperatureDescription.textContent = condition.text;
                locationtimezone.textContent = name;
                windSpeed.textContent = wind_mph + "mph";

@@ -28,6 +28,7 @@ body {
   align-items: center;
   font-size: 950%;
   margin-left: 50%;
+  cursor: pointer;
 }
 
 .symbol {
