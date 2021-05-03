@@ -27,7 +27,7 @@ body {
   justify-content: flex-end;
   align-items: center;
   font-size: 950%;
-  margin-left: 60%;
+  margin-left: 50%;
 }
 
 .symbol {
@@ -38,12 +38,6 @@ body {
   align-items: center;
   margin-left: 30%;
   font-size: 250%;
-}
-
-.divisor {
-  justify-content: center;
-  align-items: center;
-  height: 330px;
 }
 
 .timezone {
