@@ -39,5 +39,5 @@ window.addEventListener('load',()=>{
             });
                     
         });       
-    } 
+    }  
 });

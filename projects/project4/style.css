@@ -1,5 +1,8 @@
+/* Common for X-Small Screen Sizes */
+
 body {
-  margin: 12%;
+  margin: 10%;
+  padding: 2%;
   height: 100vh;
   justify-content: center;
   align-items: center;
@@ -9,36 +12,39 @@ body {
   overflow: hidden;
 }
 
-.humidity,
-.wind {
+#wind,
+#humid {
+  display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: start;
+  font-size: 70%;
 }
 
-.icon-humidity {
-  width: 32px;
-  height: 32px;
+.humidity,
+.wind {
+  display: flex;
+  justify-content: flex-end;
+  align-items: start;
+  font-size: 70%;
 }
 
 .temperature {
-  height: 50vh;
-  width: 95%;
   display: flex;
-  justify-content: flex-end;
-  align-items: center;
-  font-size: 950%;
-  margin-left: 50%;
+  height: 100%;
+  width: 50%;
+  font-size: 650%;
+  margin-left: 45%;
+  margin-top: 60%;
   cursor: pointer;
 }
 
 .symbol {
-  height: 40vh;
+  height: 70%;
   width: 20%;
   display: flex;
-  justify-content: flex-start;
-  align-items: center;
-  margin-left: 30%;
-  font-size: 250%;
+  margin-left: 40%;
+  margin-top: 80%;
+  font-size: 270%;
 }
 
 .timezone {
@@ -46,14 +52,14 @@ body {
   justify-content: center;
   align-items: center;
   font-size: 210%;
-  padding-top: 5%;
+  padding-top: 10%;
 }
 
 .description {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 130%;
+  font-size: 120%;
   padding-top: 5%;
 }
 
@@ -69,7 +75,86 @@ body {
   height: 64px;
 }
 
-.footer {
-  display: flex;
-  align-items: center;
+/* Media Query for Small Screens */
+/* *************************** */
+@media all and (min-width: 360px) {
+  #wind,
+  #humid {
+    justify-content: flex-end;
+    font-size: 90%;
+  }
+
+  .humidity,
+  .wind {
+    justify-content: flex-end;
+    font-size: 90%;
+  }
+
+  .temperature {
+    font-size: 850%;
+    margin-left: 50%;
+  }
+
+  .symbol {
+    margin-left: 55%;
+  }
+}
+
+/* Media Query for Small Screens */
+/* *************************** */
+@media all and (min-width: 500px) {
+  #wind,
+  #humid {
+    justify-content: flex-end;
+    font-size: 95%;
+  }
+
+  .humidity,
+  .wind {
+    justify-content: flex-end;
+    font-size: 95%;
+  }
+
+  .temperature {
+    font-size: 900%;
+    margin-left: 60%;
+  }
+
+  .symbol {
+    margin-left: 40%;
+  }
+
+  .timezone {
+    padding-top: 3%;
+  }
+}
+
+/* Media Query for Small Screens */
+/* *************************** */
+@media all and (min-width: 650px) {
+  #wind,
+  #humid {
+    justify-content: flex-end;
+    font-size: 95%;
+  }
+
+  .humidity,
+  .wind {
+    justify-content: flex-end;
+    font-size: 95%;
+  }
+
+  .temperature {
+    font-size: 900%;
+    margin-left: 70%;
+  }
+
+  .symbol {
+    margin-left: 30%;
+    margin-top: 72%;
+  }
+
+  .timezone {
+    padding-top: 5%;
+  }
 }
