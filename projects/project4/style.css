@@ -80,6 +80,15 @@ body {
 /* ========================================= */
 
 @media (min-width: 360px) {
+  #wind,
+  #humid {
+    font-size: 80%;
+  }
+
+  .humidity,
+  .wind {
+    font-size: 80%;
+  }
   .temperature {
     margin-left: 55%;
     margin-top: 65%;
