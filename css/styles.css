@@ -351,7 +351,7 @@
 	.p_quote{
 		line-height: 170%;
 		margin-top: 5%;
-		padding - top: 3%;
+		padding-top: 3%;
 		padding-right: 1%;
 		color: #84919B;
 		font-weight: normal;
@@ -364,7 +364,7 @@
 	{
 		line-height: 90%;
 		margin-top: 0%;
-		padding - top: 0%;
+		padding-top: 0%;
 		padding-right: 1%;
 		color: #84919B;
 		font-weight: normal;
@@ -401,15 +401,19 @@
 	}
 
 	.thumb :hover img{
-    transform: scale(1.05) rotate(50deg);
+    transform: scale(1.05) rotate(-50deg);
 	}
 
 /* ------------------------------------- */
 
 
+/* ----  Image Gallery - Portfolio ----- */
 
+.thumbBtn:hover{
+	transform: translateY(-5px);
+}
 
-
+/* ------------------------------------- */
 
 
 
@@ -1403,6 +1407,7 @@
 /* Media Query for Large Screens */
 /* *************************** */
 @media all and (min-width: 1596px){
+
 
 
 	.fixed-header{
