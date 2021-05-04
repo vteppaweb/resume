@@ -1,4 +1,5 @@
-/* Common for X-Small Screen Sizes */
+/* Common for ALL Screen Sizes */
+/* =========================== */
 
 body {
   margin: 10%;
@@ -15,7 +16,7 @@ body {
 #wind,
 #humid {
   display: flex;
-  justify-content: center;
+  justify-content: flex-end;
   align-items: start;
   font-size: 70%;
 }
@@ -23,7 +24,7 @@ body {
 .humidity,
 .wind {
   display: flex;
-  justify-content: flex-end;
+  justify-content: center;
   align-items: start;
   font-size: 70%;
 }
@@ -32,9 +33,9 @@ body {
   display: flex;
   height: 100%;
   width: 50%;
-  font-size: 650%;
+  font-size: 550%;
   margin-left: 45%;
-  margin-top: 60%;
+  margin-top: 65%;
   cursor: pointer;
 }
 
@@ -42,16 +43,16 @@ body {
   height: 70%;
   width: 20%;
   display: flex;
-  margin-left: 40%;
-  margin-top: 80%;
-  font-size: 270%;
+  margin-left: 45%;
+  margin-top: 90%;
+  font-size: 220%;
 }
 
 .timezone {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 210%;
+  font-size: 180%;
   padding-top: 10%;
 }
 
@@ -59,7 +60,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 120%;
+  font-size: 100%;
   padding-top: 5%;
 }
 
@@ -75,86 +76,152 @@ body {
   height: 64px;
 }
 
-/* Media Query for Small Screens */
-/* *************************** */
-@media all and (min-width: 360px) {
-  #wind,
-  #humid {
-    justify-content: flex-end;
-    font-size: 90%;
-  }
+/* Common for Small Screen Sizes - Min 360px */
+/* ========================================= */
 
-  .humidity,
-  .wind {
-    justify-content: flex-end;
-    font-size: 90%;
-  }
-
+@media (min-width: 360px) {
   .temperature {
-    font-size: 850%;
-    margin-left: 50%;
-  }
-
-  .symbol {
     margin-left: 55%;
-  }
-}
-
-/* Media Query for Small Screens */
-/* *************************** */
-@media all and (min-width: 500px) {
-  #wind,
-  #humid {
-    justify-content: flex-end;
-    font-size: 95%;
-  }
-
-  .humidity,
-  .wind {
-    justify-content: flex-end;
-    font-size: 95%;
-  }
-
-  .temperature {
-    font-size: 900%;
-    margin-left: 60%;
+    margin-top: 65%;
+    font-size: 680%;
   }
 
   .symbol {
-    margin-left: 40%;
+    margin-left: 35%;
+    margin-top: 80%;
+    font-size: 240%;
   }
 
   .timezone {
-    padding-top: 3%;
+    font-size: 210%;
+    padding-top: 10%;
+  }
+
+  .description {
+    font-size: 120%;
+    padding-top: 5%;
   }
 }
 
-/* Media Query for Small Screens */
-/* *************************** */
-@media all and (min-width: 650px) {
+/* Common for Small Screen Sizes - Min 360px */
+/* =========================================== */
+@media (min-width: 540px) {
   #wind,
   #humid {
-    justify-content: flex-end;
-    font-size: 95%;
+    justify-content: center;
+    font-size: 80%;
   }
-
   .humidity,
   .wind {
-    justify-content: flex-end;
-    font-size: 95%;
+    justify-content: flex-start;
+    font-size: 80%;
   }
-
   .temperature {
-    font-size: 900%;
+    margin-left: 65%;
+    font-size: 840%;
+  }
+  .symbol {
+    font-size: 300%;
+  }
+}
+
+/* Common for Medium Screen Sizes - Min 720px */
+/* =========================================== */
+@media (min-width: 720px) {
+  #wind,
+  #humid {
+    justify-content: center;
+    font-size: 120%;
+  }
+  .humidity,
+  .wind {
+    justify-content: flex-start;
+    font-size: 120%;
+  }
+  .temperature {
     margin-left: 70%;
+    font-size: 1000%;
+    margin-top: 140px;
   }
-
   .symbol {
+    font-size: 320%;
     margin-left: 30%;
-    margin-top: 72%;
+    margin-top: 70%;
   }
-
   .timezone {
+    font-size: 210%;
+    padding-top: 5%;
+  }
+}
+
+/* Common for Large Screen Sizes - Min 992px */
+/* =========================================== */
+@media (min-width: 992px) {
+  #wind,
+  #humid {
+    justify-content: center;
+    font-size: 160%;
+  }
+  .humidity,
+  .wind {
+    justify-content: flex-start;
+    font-size: 160%;
+  }
+  .temperature {
+    margin-left: 75%;
+    font-size: 1200%;
+    margin-top: 150px;
+  }
+  .symbol {
+    font-size: 400%;
+    margin-left: 25%;
+    margin-top: 53%;
+  }
+  .timezone {
+    font-size: 350%;
+    padding-top: 5%;
+  }
+  .description {
+    font-size: 180%;
+    padding-top: 5%;
+  }
+  .icon {
+    padding-top: 7%;
+  }
+}
+
+/* Common for X-Large Screen Sizes - Min 1200px */
+/* =========================================== */
+@media (min-width: 1200px) {
+  #wind,
+  #humid {
+    justify-content: center;
+    font-size: 160%;
+  }
+  .humidity,
+  .wind {
+    justify-content: flex-start;
+    font-size: 160%;
+  }
+  .temperature {
+    margin-left: 70%;
+    font-size: 1600%;
+    margin-top: 120px;
+  }
+  .symbol {
+    font-size: 500%;
+    margin-left: 30%;
+    margin-top: 40%;
+  }
+  .timezone {
+    font-size: 340%;
+    padding-top: 2%;
+  }
+  .description {
+    font-size: 140%;
+    padding-top: 5%;
+  }
+  .icon {
     padding-top: 5%;
   }
 }

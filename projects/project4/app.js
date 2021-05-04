@@ -1,6 +1,6 @@
 window.addEventListener('load',()=>{
     
-    let long;
+ /*    let long;
     let lat;
     let temperatureDescription = document.querySelector('.description');
     let temperatureDegree = document.querySelector('.temperature');
@@ -39,5 +39,5 @@ window.addEventListener('load',()=>{
             });
                     
         });       
-    }  
+    }   */
 });
