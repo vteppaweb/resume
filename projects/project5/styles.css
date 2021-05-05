@@ -26,7 +26,7 @@ body {
 
 .calculator-grid > button {
   cursor: pointer;
-  font-size: 2rem;
+  font-size: 1.5rem;
   font-weight: bold;
   border: 1px solid #000;
   outline: none;
@@ -61,6 +61,7 @@ body {
 #btn-equal {
   color: #fff;
   background-color: #3ac631;
+  border-bottom-right-radius: 15px;
 }
 
 .calculator-grid > button:hover {
@@ -75,8 +76,8 @@ body {
   grid-column: 1 / -1;
   background-color: #000;
   border: 10px solid #000;
-  border-top-right-radius: 8px;
-  border-top-left-radius: 8px;
+  border-top-right-radius: 15px;
+  border-top-left-radius: 15px;
   display: flex;
   align-items: flex-end;
   justify-content: space-around;
