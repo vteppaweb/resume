@@ -81,6 +81,10 @@ body {
   grid-column: span 2;
 }
 
+.span-three {
+  grid-column: span 3;
+}
+
 .output {
   grid-column: 1 / -1;
   background-color: #000;
