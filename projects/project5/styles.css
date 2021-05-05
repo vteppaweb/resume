@@ -9,16 +9,16 @@
 body {
   padding: 0;
   margin: 0;
-  background: linear-gradient(to right, #00aaff, #063b5d);
+  /*background: linear-gradient(to right, #00aaff, #063b5d);*/
   overflow: hidden;
 }
 
 .calculator-grid {
   display: grid;
-  justify-content: center;
+  justify-content: normal;
   align-content: start;
   margin: 2%;
-  padding: 2%;
+  padding: 0%;
   min-height: 100vh;
   grid-template-columns: repeat(4, 75px);
   grid-template-rows: minmax(120px, auto) repeat(5, 75px);
@@ -27,9 +27,40 @@ body {
 .calculator-grid > button {
   cursor: pointer;
   font-size: 2rem;
-  border: 1px solid #fff;
+  font-weight: bold;
+  border: 1px solid #000;
   outline: none;
-  background-color: rgba(255, 255, 255, 0.75);
+  color: #000;
+  background-color: #dfdfdf;
+}
+
+#btn-white {
+  background-color: #fff;
+}
+
+#btn-divide {
+  color: #fff;
+  background-color: #733a8e;
+}
+
+#btn-multiple {
+  color: #fff;
+  background-color: #fea027;
+}
+
+#btn-plus {
+  color: #fff;
+  background-color: #00a5e1;
+}
+
+#btn-minus {
+  color: #fff;
+  background-color: #e34347;
+}
+
+#btn-equal {
+  color: #fff;
+  background-color: #3ac631;
 }
 
 .calculator-grid > button:hover {
@@ -42,7 +73,10 @@ body {
 
 .output {
   grid-column: 1 / -1;
-  background-color: rgba(0, 0, 0, 0.75);
+  background-color: #000;
+  border: 10px solid #000;
+  border-top-right-radius: 8px;
+  border-top-left-radius: 8px;
   display: flex;
   align-items: flex-end;
   justify-content: space-around;
