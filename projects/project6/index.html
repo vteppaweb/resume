@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Form</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+	<div class="container mt-4">
+		<div class="row">
+			<div class="col-12 div_title_section">
+				<h2 class="h2_class">Contact Me</h2>
+			</div>		
+		</div>
+		<div class="row">
+			<form>
+				<div class="col-12">
+					<label class="form-label labelForm">Email</label>  	
+				</div>
+				<div class="col-12 mt-2">
+					<input width="auto" type="text" class="form-control" id="email" placeholder="your-email@email.com" required>
+				</div>
+				<div class="col-12 mt-4">
+					<label class="form-label">Message</label>  	
+				</div>
+				<div class="col-12 mt-2">
+					<textarea class="form-control" rows="7" cols="50" aria-multiline="true" id="message" 
+						aria-label="With textarea" placeholder="your message" required>
+					</textarea>
+					<label id="success" class="mt-2" style="color: green;"></label>  	
+				</div>			
+				<div class="col-12">	
+					<button id="btnSubmit" type="submit" class="btn btn-primary mt-2" onclick="sendEmail();">Send</button>
+				</div>
+			</form>
+		</div>				
+	</div> 
+
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    
+    <script type="text/javascript">
+		
+        function sendEmail(){
+
+			const email = document.getElementById('email').value;
+			const body = document.getElementById('message').value;			
+
+		 	if(email != '' && body != ''){
+				Email.send({
+ 				Host : "smtp.elasticemail.com",
+ 				Username : "victorteppa@gmail.com",
+			 	Password : "F5FFC99DB05F890A6358B62DDCCE226D5FA8",  
+				To : 'teppavictor2002@hotmail.com',
+				From : 'victorteppa@gmail.com',
+				Subject : "Email from: " + document.getElementById('email').value,
+				Body : document.getElementById('message').value
+
+				}).then(function(response){
+					if(response == 'OK'){
+						//alert('Mail Sent!!');
+						document.getElementById('success').textContent = "message sent successfully";  
+					} else { 
+						throw new Error("Error: " + response.statusText);
+					}			
+				});  
+			} 
+			else {
+				//alert('Enter Valid Values');
+			}    
+        }
+
+    </script>   
+</body>
+</html>
