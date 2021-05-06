@@ -92,8 +92,8 @@
 
 			  
 			        <a href="downloads.html" class="a_active">
-						<i class="fa fa-download fa-lg"></i>
-			        	Downloads
+						<i class="fa fa-envelope fa-lg"></i>
+			        	Contact
 			       	</a>
 			   		      
 			    </ul>
@@ -105,8 +105,38 @@
 	</div> 	
 
 	<div class="container">
+
+
 		<div class="row">
 			<div class="col-12 div_title_section">
+				<h2 class="h2_class">Contact Me</h2>
+			</div>		
+		</div>
+		<div class="row div_border">
+			<form>
+				<div class="col-12">
+					<label class="form-label labelForm">Email</label>  	
+				</div>
+				<div class="col-12 mt-2">
+					<input width="auto" type="text" class="form-control" id="email" placeholder="your-email@email.com" required>
+				</div>
+				<div class="col-12 mt-4">
+					<label class="form-label">Message</label>  	
+				</div>
+				<div class="col-12 mt-2">
+					<textarea class="form-control" rows="7" cols="50" aria-multiline="true" id="message" 
+						aria-label="With textarea" placeholder="your message" required>
+					</textarea>
+					<label id="success" class="mt-2" style="color: green;"></label>  	
+				</div>			
+				<div class="col-12">	
+					<button id="btnSubmit" type="submit" class="btn btn-primary mt-2" onclick="sendEmail();">Send</button>
+				</div>
+			</form>
+		</div>	
+		
+		<div class="row">
+			<div class="col-12 div_sub_title_section">
 				<h2 class="h2_class">Downloads</h2>
 			</div>		
 		</div>
@@ -116,6 +146,7 @@
 				Download Resume</a>		
 			</div>
 		</div>
+				
 	</div>
 
 
@@ -142,12 +173,75 @@
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.js"></script>
-    <script src="js/javascript.js"></script>
+    <!-- <script src="js/javascript.js"></script> -->
     <!-- JavaScript Function for TOOLTIP
     <script type="text/javascript">
         $(document).ready(function(){
             $('[data-toggle="tooltip"]').tooltip();
         });
     </script> -->
+	<script src="https://smtpjs.com/v3/smtp.js"></script>
+	<script type="text/javascript">
+			
+			// Token: 161f5032-89a6-475b-895d-12abfbc3353c 
+
+// Password: 683C6CBE21A0216ADF6B8420E70F41DD0C37
+
+/* 		Email.send({
+			SecureToken : "161f5032-89a6-475b-895d-12abfbc3353c",
+			To : 'victorteppa@gmail.com',
+			From : "victorteppa@gmail.com",
+			Subject : "This is the subject",
+			Body : "And this is the body"
+		}).then(
+		message => alert("message")
+		); */
+
+		function sendEmail(){
+
+			const email = document.getElementById('email').value;
+			const body = document.getElementById('message').value;			
+
+		 	if(email != '' && body != ''){
+				Email.send({
+ 				Host : "smtp.elasticemail.com",
+ 				Username : "victorteppa@gmail.com",
+			 	Password : "F5FFC99DB05F890A6358B62DDCCE226D5FA8",  
+				To : 'teppavictor2002@hotmail.com',
+				From : 'victorteppa@gmail.com',
+				Subject : "Email from: " + document.getElementById('email').value,
+				Body : document.getElementById('message').value
+
+				}).then(function(response){
+					if(response == 'OK'){
+						//alert('Mail Sent!!');
+						document.getElementById('success').textContent = "message sent successfully";  
+					} else { 
+						throw new Error("Error: " + response.statusText);
+					}			
+				});  
+			} 
+			else {
+				//alert('Enter Valid Values');
+			}
+			
+			// API Key:
+			//63B54BB7DEF060666060D09744EA8069F8D363268BE518A4C15F7C5D8A6FA2720D07EC7A57F3DF7706DE80114A2F833C
+			
+			
+ 	/* 	Email.send({
+			SecureToken : "9004149d-1b73-459d-b198-2e533bdfa052",
+			To : 'teppavictor2002@hotmail.com',
+			From : "victorteppa@gmail.com",
+			Subject : "This is the subject",
+			Body : "And this is the body"
+		}).then(
+		message => alert("message")
+		);  */
+
+		}
+	</script>
+
 </body>
 </html>
+
