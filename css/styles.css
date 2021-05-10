@@ -413,6 +413,11 @@
 /* ------------------------------------- */
 
 
+.logo{
+	display: grid;
+	justify-content: center;
+}
+
 
 
 /* Media Query for Big Screens */
