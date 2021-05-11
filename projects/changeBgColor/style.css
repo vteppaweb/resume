@@ -1,0 +1,47 @@
+body {
+  height: 100vh;
+  width: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  text-align: center;
+}
+
+.background {
+  text-align: center;
+  background-color: #000;
+  border: 3px solid;
+  border-radius: 15px;
+  width: auto;
+  padding: 0.25rem;
+  margin: 1rem;
+}
+
+.hexColor {
+  color: #fff;
+  font-size: 1.2rem;
+}
+
+.hex {
+  color: cornflowerblue;
+  font-size: 1.2rem;
+}
+
+.hexBtn {
+  color: #f15025;
+  border: 3px solid #f15025;
+  border-radius: 7px;
+  background: rgba(0, 0, 0, 0, 6);
+  font-size: 1rem;
+  cursor: pointer;
+  padding: 0.25rem 0.5rem;
+  outline: none;
+  text-transform: capitalize;
+}
+
+.hexBtn:hover {
+  background: rgb(0, 0, 0);
+}

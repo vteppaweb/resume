@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping List</title>
+   <!-- Bootstrap CSS -->
+   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">    
+   <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="title">
+            <h2>Shopping List</h2>
+        </div>
+        <div class="title">
+            <input 
+                item 
+                type="text" 
+                class="form-control"
+                onkeyup="enableBtn()">
+                <button add-item class="btn btn-primary btn-md buttonPlus">+</button>    
+        </div>  
+        <div class="title-items">
+            <div class="items-container"></div>
+        </div>
+        <div class="title">
+            <label class="total">
+                <span class="total-span"></span>
+                <span class="total"></span>
+            </label>            
+        </div>
+        <div class="title">
+            <button clear class="btn btn-primary btn-md">Clear</button>
+            <button print class="btn btn-success btn-md ml-2" onclick="window.print()">Print</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
